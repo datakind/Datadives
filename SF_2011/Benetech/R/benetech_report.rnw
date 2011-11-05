@@ -18,12 +18,12 @@
 \usepackage{color}
 \usepackage{pdfsync}
 \usepackage{chancery}
-\usepackage{movie15}
+% \usepackage{movie15}
 \usepackage{pgfpages}
 \usepackage{fancyvrb}
 \usepackage{colortbl}
 % Multipart figures
-\usepackage{subfigure}
+% \usepackage{subfigure}
 
 % \definecolor{white}{rgb}{255,255,255}
 % \definecolor{darkred}{rgb}{0.5,0,0}
@@ -53,7 +53,7 @@
 \title{Martus Usage Report}
 \date{\today}
 
-\institute{\includegraphics[width = 5cm]{NYUlogoLarge2597.jpg}}
+\institute{\includegraphics[width = 5cm]{Benetech-Logo-tag.jpg}}
 
 \begin{document}
   
@@ -65,5 +65,6 @@ source('load_data.R')
 \begin{frame}[plain]
   \titlepage  
 \end{frame}
+
 
 \end{document}

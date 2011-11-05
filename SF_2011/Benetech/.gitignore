@@ -1,1 +1,6 @@
 *.csv
+.DS_Store
+.RData
+.RHistory
+*.tex
+*.log

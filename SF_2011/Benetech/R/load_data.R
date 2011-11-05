@@ -15,30 +15,34 @@ library(ggplot2)
 
 # Load data
 data.file <- '../data/martus-bullacct-4datadive-2011-11-03.csv'
-benetech <- read.csv(data.file, stringsAsFactors=FALSE)
+benetech.full <- read.csv(data.file, stringsAsFactors=FALSE)
 
 # Format the dates
-benetech$Build.Date <- as.POSIXlt(benetech$Build.Date, format='%m/%d/%Y')
-benetech$date.uploaded <- as.POSIXlt(benetech$date.uploaded, format='%m/%d/%Y')
-benetech$date.last.saved <- as.POSIXlt(benetech$date.last.saved, format='%m/%d/%Y')
-benetech$date.authorized <- as.POSIXlt(benetech$date.authorized, format='%m/%d/%Y')
-benetech$date.created <- as.POSIXlt(benetech$date.created, format='%m/%d/%Y')
-benetech$event.date <- as.POSIXlt(benetech$event.date, format='%m/%d/%Y')
+benetech.full$Build.Date <- as.POSIXlt(benetech.full$Build.Date, format='%m/%d/%Y')
+benetech.full$date.uploaded <- as.POSIXlt(benetech.full$date.uploaded, format='%m/%d/%Y')
+benetech.full$date.last.saved <- as.POSIXlt(benetech.full$date.last.saved, format='%m/%d/%Y')
+benetech.full$date.authorized <- as.POSIXlt(benetech.full$date.authorized, format='%m/%d/%Y')
+benetech.full$date.created <- as.POSIXlt(benetech.full$date.created, format='%m/%d/%Y')
+benetech.full$event.date <- as.POSIXlt(benetech.full$event.date, format='%m/%d/%Y')
 
 # Set dummy variables
-benetech$final.version <- ifelse(benetech$final.version == 0, FALSE, TRUE)
-benetech$test.bulletin <- ifelse(benetech$test.bulletin == 0, FALSE, TRUE)
-benetech$all.private <- ifelse(benetech$all.private == 0, FALSE, TRUE)
-benetech$has.custom.fields <- ifelse(benetech$has.custom.fields == 0, FALSE, TRUE)
-benetech$original.server[which(benetech$original.server == 'Error: missing BUR')] <- NA
-benetech$original.server[which(benetech$original.server == '0')] <- FALSE
-benetech$original.server[which(benetech$original.server == '1')] <- TRUE
-benetech$tester <- ifelse(benetech$tester == 0, FALSE, TRUE)
+benetech.full$final.version <- ifelse(benetech.full$final.version == 0, FALSE, TRUE)
+benetech.full$test.bulletin <- ifelse(benetech.full$test.bulletin == 0, FALSE, TRUE)
+benetech.full$all.private <- ifelse(benetech.full$all.private == 0, FALSE, TRUE)
+benetech.full$has.custom.fields <- ifelse(benetech.full$has.custom.fields == 0, FALSE, TRUE)
+benetech.full$original.server[which(benetech.full$original.server == 'Error: missing BUR')] <- NA
+benetech.full$original.server[which(benetech.full$original.server == '0')] <- FALSE
+benetech.full$original.server[which(benetech.full$original.server == '1')] <- TRUE
+benetech.full$original.server <- as.logical(benetech.full$original.server)
+benetech.full$tester <- ifelse(benetech.full$tester == 0, FALSE, TRUE)
 
 # Set factors
-benetech$Build.Number[which(benetech$Build.Number == '?')] <- NA
-benetech$Build.Number <- factor(benetech$Build.Number, ordered=TRUE, exclude='')
-benetech$version.number <- factor(benetech$version.number, ordered=TRUE, exclude='')
-benetech$type <- factor(benetech$type, exclude='')
-benetech$group <- factor(benetech$group, exclude='')
+benetech.full$Build.Number[which(benetech.full$Build.Number == '?')] <- NA
+benetech.full$Build.Number <- factor(benetech.full$Build.Number, ordered=TRUE, exclude='')
+benetech.full$version.number <- factor(benetech.full$version.number, ordered=TRUE, exclude='')
+benetech.full$type <- factor(benetech.full$type, exclude='')
+benetech.full$group <- factor(benetech.full$group, exclude='')
+
+# Subset to remove duplicates
+benetech <- subset(benetech.full, !test.bulletin & original.server & !tester)
 
