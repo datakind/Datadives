@@ -37,8 +37,8 @@
 %   citecolor=darkblue}
 
 \usepackage{beamerthemesplit}
-\usetheme{Hanover}
-\usecolortheme[named=dove]{structure} 
+\usetheme{Hannover}
+\usecolortheme{dove}
 \setbeamertemplate{navigation symbols}{}
 \setbeamertemplate{itemize items}[triangle]
 \setbeamertemplate{enumerate items}[default]
