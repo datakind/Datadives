@@ -1,12 +1,12 @@
 # File-Name:       load_data.R
 # Date:            2011-11-05
 # Author:          Drew Conway
-# Email:           drew.conway@nyu.edu                                      
+# Email:           drew.conway@nyu.edu
 # Purpose:         Load and cloean the Benetech data
 # Data Used:       ../data/martus-bullacct-4datadive-2011-11-03.csv
 # Machine:         Drew Conway's MacBook Pro
 
-# Copyright (c) 2011, under the Simplified BSD License.  
+# Copyright (c) 2011, under the Simplified BSD License.
 # For more information on FreeBSD see: http://www.opensource.org/licenses/bsd-license.php
 # All rights reserved.
 
@@ -15,7 +15,9 @@ library(ggplot2)
 
 # Load data
 data.file <- '../data/martus-bullacct-4datadive-2011-11-03.csv'
-benetech.full <- read.csv(data.file, stringsAsFactors=FALSE)
+# benetech.full <- read.csv(data.file, stringsAsFactors=FALSE)
+small.data.file <- '../data/head-martus-bullacct-4datadive-2011-11-03.csv'
+benetech.full <- read.csv(small.data.file, stringsAsFactors=FALSE)
 
 # Format the dates
 benetech.full$Build.Date <- as.POSIXlt(benetech.full$Build.Date, format='%m/%d/%Y')

@@ -2,7 +2,7 @@
 %  benetech_report.rnw
 %
 %  Created on 2011-11-05
-% 
+%
 %
 \documentclass[xcolor=dvipsnames, 9pt,handout]{beamer}
 
@@ -57,14 +57,31 @@
 \institution{\includegraphics[width = 3cm]{Benetech-Logo-tag.jpg}}
 
 \begin{document}
-  
+
 % The data frame is called 'benetech'
 <<echo=false>>=
 source('load_data.R')
+source('q5.R')
 @
 
 \begin{frame}[plain]
-  \titlepage  
+  \titlepage
+\end{frame}
+
+\begin{frame}[plain]
+  \frametitle{Average account longevity}
+  \begin{block}{Question}
+    How does (date.last.saved - date.authorized) vary as a function of date.authorized?
+  \end{block}
+  Some notes about the dataset:
+  \begin{itemize}
+    \item Many authorized dates are NA:
+<<<echo=T, eval=T>>=
+xtable(is.na(wdf$authorized_date))
+@
+    \item Some last saved at dates are before the authorized dates:
+    \item $\Sexpr{round(3/2)}$
+  \end{itemize}
 \end{frame}
 
 \begin{frame}
