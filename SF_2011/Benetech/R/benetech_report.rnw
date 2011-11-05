@@ -37,8 +37,8 @@
 %   citecolor=darkblue}
 
 \usepackage{beamerthemesplit}
-\usetheme{Warsaw}
-\usecolortheme[named=Blue]{structure} 
+\usetheme{Hanover}
+\usecolortheme[named=dove]{structure} 
 \setbeamertemplate{navigation symbols}{}
 \setbeamertemplate{itemize items}[triangle]
 \setbeamertemplate{enumerate items}[default]
@@ -49,6 +49,8 @@
 \newcommand{\dd}{\partial}
 \newcommand{\E}{\mathsf{E}}
 \newcommand{\bb}{\mathbf}
+
+\graphicspath{{../images/}}
 
 \title{Martus Usage Report}
 \date{\today}
