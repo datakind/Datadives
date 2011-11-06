@@ -67,34 +67,6 @@ source('load_data.R')
   \titlepage
 \end{frame}
 
-\begin{frame}[plain]
-  \frametitle{Average account longevity}
-  \begin{block}{Question}
-    How does (date.last.saved - date.authorized) vary as a function of date.authorized?
-  \end{block}
-  Some notes about the dataset:
-  \begin{itemize}
-    \item Many authorized dates are NA:
-<<<echo=T, eval=T>>=
-xtable(is.na(wdf$authorized_date))
-@
-    \item Some last saved at dates are before the authorized dates:
-    \item $\Sexpr{round(3/2)}$
-  \end{itemize}
-\end{frame}
-
-<<<<<<< HEAD
-=======
-\begin{frame}
-  \frametitle{Global Martus Use}
-<<echo=false, include=false>>=
-source('11_map_report.R')
-@
-\includegraphics[width=11cm]{benetech_report-map_plot.pdf} \\ 
-As of \today
-\end{frame}
-
->>>>>>> 9d4412c0ae24a168e106f195a1ab47127b8ffb94
 \begin{frame}{Database Usage Statistics}
 
 \begin{table}[ht]
@@ -123,7 +95,7 @@ source( "Q1_server_usage.R" )
 \begin{figure}
 \begin{center}
 
-<<TotalUsagePlot, fig=TRUE, echo=FALSE, width=2.5, height=2.5>>=
+<<TotalUsagePlot, fig=TRUE, echo=FALSE, width=4, height=3>>=
 source( "Q1b_server_growth.R" )
 plot.tot(bfs.big)
 @ 
@@ -139,7 +111,7 @@ plot.tot(bfs.big)
 \begin{figure}
 \begin{center}
 
-<<AverageDailyUsagePlot, fig=TRUE, echo=FALSE, width=4, height=2.5>>=
+<<AverageDailyUsagePlot, fig=TRUE, echo=FALSE, width=4, height=3>>=
 plot.deriv(bfs.little)
 @ 
 \caption{Daily usage over time}
@@ -154,7 +126,7 @@ plot.deriv(bfs.little)
 \begin{figure}
 \begin{center}
 
-<<AverageDailyUsagePlotTruncated, fig=TRUE, echo=FALSE, width=2.5, height=2.5>>=
+<<AverageDailyUsagePlotTruncated, fig=TRUE, echo=FALSE, width=4, height=3>>=
 plot.deriv.trunc(bfs.little)
 @ 
 \caption{Average Daily Usage (Truncated)}
@@ -170,7 +142,44 @@ Note: as previous slide, but truncated to 95\% of values to see typical behavior
 <<CustomFieldStats, results=tex, echo=FALSE>>=
 source( "Q4_custom_field_code.R" )
 @ 
+\end{frame}
 
+<<echo=false>>=
+source('q5.R')
+@
+
+\begin{frame}[plain]
+  \frametitle{Average account longevity}
+  \begin{block}{Question}
+    How does (date.last.saved - date.authorized) vary as a function of date.authorized?
+  \end{block}
+  Some notes about the dataset:
+  \begin{itemize}
+    \item Many authorized dates are NA:
+<<TimeBoxPlots, fig=TRUE, echo=FALSE, width=4, height=3>>=
+print(ggplot(data=working_set, aes(x=time_group_halves, y=time_diff_int/60/60/24)) +
+  geom_point() + geom_boxplot() + opts(axis.text.x=theme_text(angle=-90)))
+@
+    \item Some last saved at dates are before the authorized dates:
+    \item $\Sexpr{round(3/2)}$
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{By Account Quarter, Scatter}
+<<ActivityByAccountScatter, fig=TRUE, echo=FALSE, width=4, height=3>>=
+print(ggplot(data=by_account_quarter, aes(x=count, y=time_diff_median_seconds/60/60)) +
+  geom_point() + coord_trans(x="log10") + opts(axis.text.x=theme_text(angle=-90)))
+@
+\end{frame}
+
+\begin{frame}
+  \frametitle{By Account Quarter, Box}
+<<ActivityByAccountBox, fig=TRUE, echo=FALSE, width=4, height=3>>=
+print(ggplot(data=by_account_quarter, aes(x=count, y=time_diff_mean_seconds/60/60)) +
+  geom_point() + geom_boxplot(aes(group=round_any(log10(count), 1))) +
+  opts(axis.text.x=theme_text(angle=-90)))
+@
 \end{frame}
 
 \begin{frame}

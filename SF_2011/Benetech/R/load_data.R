@@ -12,6 +12,7 @@
 
 # Load libraries
 library(ggplot2)
+library(xtable)
 
 # Load data
 data.file <- '../data/martus-bullacct-4datadive-2011-11-03.csv'

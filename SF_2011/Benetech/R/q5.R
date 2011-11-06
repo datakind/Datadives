@@ -80,12 +80,6 @@ colnames(by_account) <- c("public_code", "count")
 by_account_quarter <- ddply(working_set, .(public_code, time_group_quarters), summary_function, "time_diff_int")
 by_account_quarter <- join(by_account, by_account_quarter)
 
-ggplot(data=by_account_quarter, aes(x=count, y=time_diff_median_seconds/60/60)) +
-  geom_point() + coord_trans(x="log10") + opts(axis.text.x=theme_text(angle=-90))
-
-ggplot(data=by_account_quarter, aes(x=count, y=time_diff_mean_seconds/60/60)) +
-  geom_point() + geom_boxplot(aes(group=round_any(log10(count), 1))) +
-  opts(axis.text.x=theme_text(angle=-90))
 
 # huge range for accounts who use this once, pretty stead for people who use this more
 
