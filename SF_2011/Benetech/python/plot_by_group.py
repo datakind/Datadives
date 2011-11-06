@@ -62,13 +62,13 @@ if __name__=="__main__":
     fig.savefig('../images/public_code_distribution.png')
     fig.savefig('../images/public_code_distribution.svg')
     
-high_idx = pcvu_sort_idx[-high_n:]
-high_pc = pcvu[high_idx]
+    high_idx = pcvu_sort_idx[-high_n:]
+    high_pc = pcvu[high_idx]
 
-out_file2 = file('../data/public_code_usage.csv','w')
-out_file2.write('public_code, n_bulletins, n_dates, first_date, last_date \n') # Header
+    out_file2 = file('../data/public_code_usage.csv','w')
+    out_file2.write('public_code, n_bulletins, n_dates, first_date, last_date \n') # Header
 
-ut.plot_bull_date(dates, pcv, high_pc, out_file2, 
+    ut.plot_bull_date(dates, pcv, high_pc, out_file2, 
                       save_fig_as = '../images/bulletins_by_public_code', draw_legend=False) 
 
                 

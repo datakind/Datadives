@@ -4,7 +4,6 @@ import matplotlib.pyplot as plt
 
 """
 Utility functions for usage by plot_by_group.
-
 """
 
 def mk_date_from_string(s):
@@ -63,7 +62,7 @@ def plot_bull_date(dates, var, groups, out_file, save_fig_as,
         g_dates = mk_date_from_string(dates[g_idx])
         if not smart_isnan(g_dates):
             # Can't do anything with dates that are nans:
-            non_nan_idx = np.where(g_dates~=np.nan)
+            non_nan_idx = np.where(g_dates!=np.nan)
             g_dates = g_dates[non_nan_idx]
             # What are the unique values?
             u_dates = np.unique(g_dates)
