@@ -22,7 +22,7 @@ benetech.full <- read.csv(data.file, stringsAsFactors=FALSE)
 # Format the dates
 benetech.full$Build.Date <- as.POSIXlt(benetech.full$Build.Date, format='%m/%d/%Y')
 benetech.full$date.uploaded <- as.POSIXlt(benetech.full$date.uploaded, format='%m/%d/%Y')
-benetech.full$date.uploaded[which(benetech.full$date.uploaded <= as.POSIXlt('2002-10-30'))] <- NA
+benetech.full$date.uploaded[benetech.full$date.uploaded <= as.POSIXlt('2002-10-30')] <- NA
 benetech.full$date.last.saved <- as.POSIXlt(benetech.full$date.last.saved, format='%m/%d/%Y')
 benetech.full$date.authorized <- as.POSIXlt(benetech.full$date.authorized, format='%m/%d/%Y')
 benetech.full$date.created <- as.POSIXlt(benetech.full$date.created, format='%m/%d/%Y')
