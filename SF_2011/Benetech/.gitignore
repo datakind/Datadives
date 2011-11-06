@@ -3,3 +3,12 @@
 .RHistory
 *.tex
 *.log
+*.aux
+*.out
+*.nav
+*.pdf
+*.pdfsync
+*.snm
+*.synctex.gz
+*.toc
+*.swp
