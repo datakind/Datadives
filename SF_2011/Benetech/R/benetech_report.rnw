@@ -155,30 +155,46 @@ source('q5.R')
   \end{block}
   Some notes about the dataset:
   \begin{itemize}
-    \item Many authorized dates are NA:
-<<TimeBoxPlots, fig=TRUE, echo=FALSE, width=4, height=3>>=
-print(ggplot(data=working_set, aes(x=time_group_halves, y=time_diff_int/60/60/24)) +
-  geom_point() + geom_boxplot() + opts(axis.text.x=theme_text(angle=-90)))
-@
-    \item Some last saved at dates are before the authorized dates:
-    \item $\Sexpr{round(3/2)}$
+    \item Many authorized dates are NA. The total number of samples is
+    $\Sexpr{sum(table_neg_time_diff)}$, and $\Sexpr{table_neg_time_diff['TRUE']}$
+    are NAs.
+    \item Some last saved at dates ($\Sexpr{table_na['TRUE']}$ of them) are
+    before the authorized dates.
+    \item We filtered these out in our analysis.
   \end{itemize}
 \end{frame}
 
+\begin{frame}[plain]
+  \frametitle{Bulletin longevity}
+Large variability over the years.
+<<TimeBoxPlots, fig=TRUE, echo=FALSE, width=4, height=3>>=
+print(ggplot(data=working_set, aes(x=time_group_halves, y=time_diff_int/60/60/24)) +
+  geom_point() + geom_boxplot() + opts(axis.text.x=theme_text(angle=-90))) +
+  scale_x_continuous('Bulletins') +
+  scale_y_continuous('Days since authorized', formatter='comma')
+@
+\end{frame}
+
 \begin{frame}
-  \frametitle{By Account Quarter, Scatter}
+  \frametitle{Median account longevity, Scatter}
+Each point is an account (characterized by the number of bulletins created.)
 <<ActivityByAccountScatter, fig=TRUE, echo=FALSE, width=4, height=3>>=
-print(ggplot(data=by_account_quarter, aes(x=count, y=time_diff_median_seconds/60/60)) +
-  geom_point() + coord_trans(x="log10") + opts(axis.text.x=theme_text(angle=-90)))
+print(ggplot(data=by_account_quarter, aes(x=count, y=time_diff_median_seconds/60/60/24)) +
+  geom_point() + coord_trans(x="log10") + opts(axis.text.x=theme_text(angle=-90)) +
+  scale_x_continuous('Account by bulletin count') +
+  scale_y_continuous('Days since authorized', formatter='comma'))
 @
 \end{frame}
 
 \begin{frame}
   \frametitle{By Account Quarter, Box}
+  Another perspective.
 <<ActivityByAccountBox, fig=TRUE, echo=FALSE, width=4, height=3>>=
-print(ggplot(data=by_account_quarter, aes(x=count, y=time_diff_mean_seconds/60/60)) +
+print(ggplot(data=by_account_quarter, aes(x=count, y=time_diff_mean_seconds/60/60/24)) +
   geom_point() + geom_boxplot(aes(group=round_any(log10(count), 1))) +
-  opts(axis.text.x=theme_text(angle=-90)))
+  opts(axis.text.x=theme_text(angle=-90)) +
+  scale_x_continuous('Account by bulletin count') +
+  scale_y_continuous('Days since authorized', formatter='comma'))
 @
 \end{frame}
 
@@ -187,7 +203,7 @@ print(ggplot(data=by_account_quarter, aes(x=count, y=time_diff_mean_seconds/60/6
 <<echo=false, include=false>>=
 source('11_map_report.R')
 @
-\includegraphics[width=11cm]{benetech_report-map_plot.pdf} \\ 
+\includegraphics[width=11cm]{benetech_report-map_plot.pdf} \\
 As of \today
 \end{frame}
 
