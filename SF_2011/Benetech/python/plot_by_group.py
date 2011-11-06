@@ -33,9 +33,6 @@ def smart_isnan(x):
         if np.isnan(x[0]):
             return True
 
-def format_date(x, pos=None):
-    pass 
-
 if __name__=="__main__":
     # How many unique dates should a group have to be considered: 
     min_u_dates = 5
