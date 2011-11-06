@@ -35,7 +35,7 @@ bf$tot.attach = cumsum( bf$public.attachments + bf$private.attachments )
 
 
 # select some subsample for plotting
-pick = round( seq( 1, nrow(bf), length.out=2000 ) )
+pick = round( seq( 1, nrow(bf), length.out=4000 ) )
 pick = pick[ !duplicated( bf$date.uploaded[ pick ], fromLast=TRUE ) ]
 
 # make the full subsample
@@ -82,6 +82,20 @@ plot.tot = function( bfs ) {
 }
 
 
+plot.tot.from = function( bfs, years ) {
+	cut = max(bfs$date.uploaded) - years * 365 * 24*60*60
+	keep = bfs$date.uploaded >= cut
+	par( mfrow=c(2,2), mar=c(3,3,1,1), mgp=c(2,1,0) )
+	plot( bfs$date.uploaded[keep], bfs$tot.bull[keep], type="l", xlab="Time", ylab="Total Bulletins" )
+	plot( bfs$date.uploaded[keep], bfs$totKb[keep]/1024, type="l", xlab="Time", ylab="Total Megabytes")
+	plot( bfs$date.uploaded[keep], bfs$accounts[keep], type="l", xlab="Time", ylab="Total Number of Distinct Accounts" )
+	plot( bfs$date.uploaded[keep], bfs$tot.attach[keep], type="l", xlab="Time", ylab="Total Number of Attachments" )
+
+}
+
+
+
+
 # no truncation
 plot.deriv = function( bfs ) {
 	par( mfrow=c(2,2), mar=c(3,3,1,1), mgp=c(2,1,0) )
@@ -99,6 +113,19 @@ plot.deriv.trunc = function( bfs ) {
 	plot( days, account.per.day, type="l", ylim=c(0, quantile( account.per.day, 0.95 )), xlab="Time", ylab="New Accounts per Day" )
 	plot( days, attach.per.day, type="l", ylim=c(0, quantile( attach.per.day, 0.95 )), xlab="Time", ylab="Attachments per Day" )
 }
+
+
+
+plot.deriv.from = function( years ) {
+	cut = max(days) - years * 365 * 24*60*60
+	keep = days >= cut
+	par( mfrow=c(2,2), mar=c(3,3,1,1), mgp=c(2,1,0) )
+	plot( days[keep], bull.per.day[keep], type="l", xlab="Time", ylab="Bulletins Per Day" )
+	plot( days[keep], kb.per.day[keep]/1024, type="l", xlab="Time", ylab="Megabytes per Day")
+	plot( days[keep], account.per.day[keep], type="l", xlab="Time", ylab="New Accounts per Day" )
+	plot( days[keep], attach.per.day[keep], type="l", xlab="Time", ylab="Attachments per Day" )
+}
+
 
 
 
