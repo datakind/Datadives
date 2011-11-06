@@ -70,22 +70,25 @@ source('load_data.R')
 \begin{frame}{Database Usage Statistics}
 
 \begin{table}[ht]
-\tiny  % so sorry!!
+\small  % so sorry!!
 \begin{center}
-
-\begin{tabular}{rr|r|rr|r|rrr}
- 	 	& 	 	& Bulletins&	\multicolumn{2}{c|}{Memory}	 &	Accounts  	 &				  \multicolumn{3}{c}{Attachments}  \\ 
- Server & Type & & Kb & Kb$/$Bull &   & Pub & Priv & Total \\ 
+\begin{tabular}{rr|r|rr|r|rr}
+ 	 	& 	 	& Bulletins&	\multicolumn{2}{c|}{Memory}	 &	Acc  	 &				  \multicolumn{2}{c}{Attachments}  \\ 
+ Server & Type & & Mb & K$/$B &   & Total & \% Pub \\ 
   \hline
+
 
 <<UsageTable, results=tex, echo=FALSE>>=
 source( "Q1_server_usage.R" )
 @ 
 
 \end{tabular}
-\caption{Database Usage Statistics}
+
+\caption{Database Usage Statistics. }
 \end{center}
 \end{table}
+{\small The above table show total load on the various servers.  For a given server, the table shows total load for different types of bulletins.  Type is Orig=bulletins on original server, Mirr=mirrored bulletins, T=all bulletins.   K$/$B is kilobytes per bulletin, on average.  Acc is number of distinct accounts (as measured by public.code).   
+}
 
 \end{frame}
 
@@ -150,19 +153,10 @@ source('q5.R')
 
 \begin{frame}[plain]
   \frametitle{Average account longevity}
-  \begin{block}{Question}
-    How does (date.last.saved - date.authorized) vary as a function of date.authorized?
-  \end{block}
-  Some notes about the dataset:
-  \begin{itemize}
-    \item Many authorized dates are NA:
 <<TimeBoxPlots, fig=TRUE, echo=FALSE, width=4, height=3>>=
 print(ggplot(data=working_set, aes(x=time_group_halves, y=time_diff_int/60/60/24)) +
   geom_point() + geom_boxplot() + opts(axis.text.x=theme_text(angle=-90)))
 @
-    \item Some last saved at dates are before the authorized dates:
-    \item $\Sexpr{round(3/2)}$
-  \end{itemize}
 \end{frame}
 
 \begin{frame}
@@ -179,6 +173,34 @@ print(ggplot(data=by_account_quarter, aes(x=count, y=time_diff_median_seconds/60
 print(ggplot(data=by_account_quarter, aes(x=count, y=time_diff_mean_seconds/60/60)) +
   geom_point() + geom_boxplot(aes(group=round_any(log10(count), 1))) +
   opts(axis.text.x=theme_text(angle=-90)))
+@
+\end{frame}
+
+\begin{frame}
+  \frametitle{Bulletins by group}
+  \includegraphics[width=\textwidth]{bulletins_by_group.png}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Bulletins by public code}
+  \includegraphics[width=\textwidth]{bulletins_by_public_code.png}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Public code distribution}
+  \includegraphics[width=\textwidth]{public_code_distribution.png}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Group usage}
+<<echo=false>>=
+group.usage <- read.csv('../data/group_usage.csv', stringsAsFactors=FALSE)
+group.usage[with(group.usage, order(-n_bulletins)),]
+@
+\tiny
+<<UsageTable, echo=false, results=tex>>=
+ust <- xtable(group.usage, align='llllll')
+print(ust)
 @
 \end{frame}
 
