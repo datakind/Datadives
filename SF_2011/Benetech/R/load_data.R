@@ -15,9 +15,7 @@ library(ggplot2)
 
 # Load data
 data.file <- '../data/martus-bullacct-4datadive-2011-11-03.csv'
-# benetech.full <- read.csv(data.file, stringsAsFactors=FALSE)
-small.data.file <- '../data/head-martus-bullacct-4datadive-2011-11-03.csv'
-benetech.full <- read.csv(small.data.file, stringsAsFactors=FALSE)
+benetech.full <- read.csv(data.file, stringsAsFactors=FALSE)
 
 # Format the dates
 benetech.full$Build.Date <- as.POSIXlt(benetech.full$Build.Date, format='%m/%d/%Y')
