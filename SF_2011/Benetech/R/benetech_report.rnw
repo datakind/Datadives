@@ -153,26 +153,51 @@ source('q5.R')
 
 \begin{frame}[plain]
   \frametitle{Average account longevity}
+  \begin{block}{Question}
+    How does (date.last.saved - date.authorized) vary as a function of date.authorized?
+  \end{block}
+  Some notes about the dataset:
+  \begin{itemize}
+    \item Many authorized dates are NA. The total number of samples is
+    $\Sexpr{sum(table_neg_time_diff)}$, and $\Sexpr{table_neg_time_diff['TRUE']}$
+    are NAs.
+    \item Some last saved at dates ($\Sexpr{table_na['TRUE']}$ of them) are
+    before the authorized dates.
+    \item We filtered these out in our analysis.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}[plain]
+  \frametitle{Bulletin longevity}
+Large variability over the years.
 <<TimeBoxPlots, fig=TRUE, echo=FALSE, width=4, height=3>>=
 print(ggplot(data=working_set, aes(x=time_group_halves, y=time_diff_int/60/60/24)) +
-  geom_point() + geom_boxplot() + opts(axis.text.x=theme_text(angle=-90)))
+  geom_point() + geom_boxplot() + opts(axis.text.x=theme_text(angle=-90))) +
+  scale_x_continuous('Bulletins') +
+  scale_y_continuous('Days since authorized', formatter='comma')
 @
 \end{frame}
 
 \begin{frame}
-  \frametitle{By Account Quarter, Scatter}
+  \frametitle{Median account longevity, Scatter}
+Each point is an account (characterized by the number of bulletins created.)
 <<ActivityByAccountScatter, fig=TRUE, echo=FALSE, width=4, height=3>>=
-print(ggplot(data=by_account_quarter, aes(x=count, y=time_diff_median_seconds/60/60)) +
-  geom_point() + coord_trans(x="log10") + opts(axis.text.x=theme_text(angle=-90)))
+print(ggplot(data=by_account_quarter, aes(x=count, y=time_diff_median_seconds/60/60/24)) +
+  geom_point() + coord_trans(x="log10") + opts(axis.text.x=theme_text(angle=-90)) +
+  scale_x_continuous('Account by bulletin count') +
+  scale_y_continuous('Days since authorized', formatter='comma'))
 @
 \end{frame}
 
 \begin{frame}
   \frametitle{By Account Quarter, Box}
+  Another perspective.
 <<ActivityByAccountBox, fig=TRUE, echo=FALSE, width=4, height=3>>=
-print(ggplot(data=by_account_quarter, aes(x=count, y=time_diff_mean_seconds/60/60)) +
+print(ggplot(data=by_account_quarter, aes(x=count, y=time_diff_mean_seconds/60/60/24)) +
   geom_point() + geom_boxplot(aes(group=round_any(log10(count), 1))) +
-  opts(axis.text.x=theme_text(angle=-90)))
+  opts(axis.text.x=theme_text(angle=-90)) +
+  scale_x_continuous('Account by bulletin count') +
+  scale_y_continuous('Days since authorized', formatter='comma'))
 @
 \end{frame}
 
@@ -198,9 +223,9 @@ group.usage <- read.csv('../data/group_usage.csv', stringsAsFactors=FALSE)
 group.usage[with(group.usage, order(-n_bulletins)),]
 @
 \tiny
-<<UsageTable, echo=false, results=tex>>=
-ust <- xtable(group.usage, align='llllll')
-print(ust)
+<<UsageTable, echo=false, fig=true, width=4, height=3>>=
+plot(ggplot(group.usage, aes(xmin=1:nrow(group.usage)-0.5, xmax=1:nrow(group.usage)+0.5, ymin=0, ymax= n_bulletins))+
+  geom_rect()+scale_y_log10()+scale_x_continuous(breaks=1:nrow(group.usage), labels=group.usage$Group)+coord_flip())
 @
 \end{frame}
 
@@ -209,7 +234,7 @@ print(ust)
 <<echo=false, include=false>>=
 source('11_map_report.R')
 @
-\includegraphics[width=11cm]{benetech_report-map_plot.pdf} \\ 
+\includegraphics[width=11cm]{benetech_report-map_plot.pdf} \\
 As of \today
 \end{frame}
 
