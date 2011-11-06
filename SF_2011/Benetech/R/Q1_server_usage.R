@@ -31,23 +31,24 @@ big.sum.list = dlply( benetech.full, "server", function( chunk ) {
 	df = ddply( chunk, .(original.server), summarise,
 		server=server[[1]],
 		total.bull = length(public.code),
-		total.Kb = sum( size..Kb. ),
+		total.Mb = sum( size..Kb. ),
 
 		total.acc = length( unique( public.code ) ),
 		attach.pub = sum( public.attachments ),
 		attach.priv = sum( private.attachments )
-		)
+	)
+		
 	if ( nrow(df) > 1 ) {
 		df.full = ddply( chunk, .(server), summarise,
 			original.server="Total",
 			total.bull = length(public.code),
-			total.Kb = sum( size..Kb. ),
+			total.Mb = sum( size..Kb. ),
 	
 			total.acc = length( unique( public.code ) ),
 			attach.pub = sum( public.attachments ),
 			attach.priv = sum( private.attachments )
 			)
-		df$original.server = c("Mirror","Orig")[1+df$original.server]
+		df$original.server = c("Mirr","Orig")[1+df$original.server]
 		df = df[ c(2,1,3:ncol(df)) ]
 		rbind( df, df.full )
 	} else {
@@ -56,8 +57,28 @@ big.sum.list = dlply( benetech.full, "server", function( chunk ) {
 	}
 	
 } )
+
+total.df = ddply( benetech.full, c(), summarise,
+			original.server="T",
+			total.bull = length(public.code),
+			total.Mb = sum( size..Kb. ),
+	
+			total.acc = length( unique( public.code ) ),
+			attach.pub = sum( public.attachments ),
+			attach.priv = sum( private.attachments )
+			)
+names(total.df)[1] = "server"
+total.df$server = "Total"
+total.df$original.server = NA
+
+
+# put it all together
 summ = do.call( rbind, big.sum.list )
 #summ
+summ = rbind( summ, total.df )
+
+			
+
 
 dups = !duplicated( summ$server )
 
@@ -65,7 +86,7 @@ dups = !duplicated( summ$server )
 summ$server[!dups] = ""
 
 # add some summary stats
-summ$kBperBul = with( summ, total.Kb / total.bull )
+summ$kBperBul = with( summ, total.Mb / total.bull )
 summ $attach.tot = with( summ, attach.pub + attach.priv)
 summ = summ[c(1,2,3,4,8,5,6,7,9)]
 
@@ -73,10 +94,21 @@ summ = summ[c(1,2,3,4,8,5,6,7,9)]
 #summ$avg.attach = with( summ, attach.tot / total.bull )
 
 #summ
+summ$total.Mb = summ$total.Mb / 1024
+summ$total.Mb = formatC(summ$total.Mb, format="d", big.mark=',' )
+summ
+
+
+summ$per.pub = 100 *summ$attach.pub / summ$attach.tot
+summ
+summ$attach.pub = NULL
+summ$attach.priv = NULL
+summ$per.pub = paste( round(summ$per.pub,digits=1), "%", sep="" )
+summ$attach.tot = formatC(summ$attach.tot, format="d", big.mark=',' )
 
 
 # make an xtable in latex.
-xtb = xtable( summ, align="rrrrrrrrrr", caption="Database Usage Statistics",
+xtb = xtable( summ, align="rrrrrrrrr", caption="Database Usage Statistics",
 			digits=0 )
 print( xtb, hline.after=(which(dups)-1), include.rownames=FALSE,
 		include.colnames=FALSE, only.contents=TRUE  )
