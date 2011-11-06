@@ -12,8 +12,6 @@
 
 # Load libraries
 library(ggplot2)
-library(RJSONIO)
-library(RCurl)
 
 # Load data
 data.file <- '../data/martus-bullacct-4datadive-2011-11-03.csv'
@@ -50,6 +48,8 @@ benetech.full$group <- factor(benetech.full$group, exclude='')
 
 # A function to query the Google Geo API. Get a lat/lon value for each address
 geocode.addr <- function(addr, sleep=TRUE) {
+    require(RJSONIO)
+    require(RCurl)
     if(sleep) {
         Sys.sleep(runif(1))
     }

@@ -1,190 +1,190 @@
-"V1","lat","lng"
+"location","lng","lat"
 "",NA,NA
-"CA","36.778261","-119.4179324"
-"Budapest","47.4984056","19.0407578"
-"Beirut","33.8886289","35.4954794"
-"Buenos Aires","-34.6084175","-58.3731613"
-"Bangladesh","23.684994","90.356331"
-"Juárez, Chihuahua, Mexico","31.7311292","-106.4625624"
-"Palo Alto","37.4418834","-122.1430195"
-"Malama Town","4.175","73.5088889"
-"Banthoron Ferry Village, Sanda  Taindaren Cheifdom, Bombali District","9.2475837","-12.1632718"
-"Rokon village, Kambia District","9.0073895","-12.9714403"
+"CA",36.778261,-119.4179324
+"Budapest",47.4984056,19.0407578
+"Beirut",33.8886289,35.4954794
+"Buenos Aires",-34.6084175,-58.3731613
+"Bangladesh",23.684994,90.356331
+"Juárez, Chihuahua, Mexico",31.7311292,-106.4625624
+"Palo Alto",37.4418834,-122.1430195
+"Malama Town",4.175,73.5088889
+"Banthoron Ferry Village, Sanda  Taindaren Cheifdom, Bombali District",9.2475837,-12.1632718
+"Rokon village, Kambia District",9.0073895,-12.9714403
 "this is a test sealed private",NA,NA
-"Santo Domingo Tehuantepec","16.3202909","-95.2411554"
+"Santo Domingo Tehuantepec",16.3202909,-95.2411554
 "Anyplace",NA,NA
-"Город Наманган","40.99902","71.679657"
-"Папский район","40.8626928","70.9071236"
-"Test Posting Arabic Content two : Israel / PA","41.2033216","-77.1945247"
-"China","35.86166","104.195397"
-"Test Posting Arabic Content: Israel / PA","41.2033216","-77.1945247"
-"Кыргызстан","41.20438","74.766098"
-"UK","55.378051","-3.435973"
-"Colombia","4.570868","-74.297333"
-"San Jose","37.3393857","-121.8949555"
-"Davao, Mindanao","7.190708","125.455341"
-"neighborhood X","27.993655","-82.697724"
-"Trincolmalee","8.569151","81.23291"
-"Huaraz","-9.5333333","-77.5333333"
-"DF, México","19.4326077","-99.133208"
-"Monterrey, México","25.673211","-100.309201"
-"Sinaloa","25.1721091","-107.4795173"
-"Chihuahua","28.6352778","-106.0888889"
-"Guatemala","15.783471","-90.230759"
-"Nuevo León","25.7276624","-99.5450974"
-"Chihuahua, México","28.6352778","-106.0888889"
-"Bolivia","-16.290154","-63.588653"
-"San Diego, California","32.7153292","-117.1572551"
-"Manila","14.5995124","120.9842195"
+"Город Наманган",40.99902,71.679657
+"Папский район",40.8626928,70.9071236
+"Test Posting Arabic Content two : Israel / PA",41.2033216,-77.1945247
+"China",35.86166,104.195397
+"Test Posting Arabic Content: Israel / PA",41.2033216,-77.1945247
+"Кыргызстан",41.20438,74.766098
+"UK",55.378051,-3.435973
+"Colombia",4.570868,-74.297333
+"San Jose",37.3393857,-121.8949555
+"Davao, Mindanao",7.190708,125.455341
+"neighborhood X",27.993655,-82.697724
+"Trincolmalee",8.569151,81.23291
+"Huaraz",-9.5333333,-77.5333333
+"DF, México",19.4326077,-99.133208
+"Monterrey, México",25.673211,-100.309201
+"Sinaloa",25.1721091,-107.4795173
+"Chihuahua",28.6352778,-106.0888889
+"Guatemala",15.783471,-90.230759
+"Nuevo León",25.7276624,-99.5450974
+"Chihuahua, México",28.6352778,-106.0888889
+"Bolivia",-16.290154,-63.588653
+"San Diego, California",32.7153292,-117.1572551
+"Manila",14.5995124,120.9842195
 "Metro Station by Hotel Uzbekistan",NA,NA
-"Lusaka","-15.408193","28.287167"
-"Mogadishu, District #2, Somalia","2.0333333","45.35"
-"Lagos Island","6.45","3.4"
-"с. Ат-Башы","40.9370063","76.2710833"
-"Palo alto","37.4418834","-122.1430195"
-"Field office#1","36.268184","-89.440426"
-"Palo Alto USA","37.4418834","-122.1430195"
+"Lusaka",-15.408193,28.287167
+"Mogadishu, District #2, Somalia",2.0333333,45.35
+"Lagos Island",6.45,3.4
+"с. Ат-Башы",40.9370063,76.2710833
+"Palo alto",37.4418834,-122.1430195
+"Field office#1",36.268184,-89.440426
+"Palo Alto USA",37.4418834,-122.1430195
 "Benetech Headquarters",NA,NA
 "test on 02112004 server",NA,NA
-"Palo Alto California ","37.4418834","-122.1430195"
-"Testing Department","29.0888206","48.0505084"
+"Palo Alto California ",37.4418834,-122.1430195
+"Testing Department",29.0888206,48.0505084
 "Benetech",NA,NA
-"г. Нарын","41.42482","75.998154"
-"State Prison #00445","38.6875176","-121.159923"
-"Т ФХ","50.18763","8.74637"
-"г. Ош","40.53","72.8"
+"г. Нарын",41.42482,75.998154
+"State Prison #00445",38.6875176,-121.159923
+"Т ФХ",50.18763,8.74637
+"г. Ош",40.53,72.8
 "г. Карасуу, Карасуйского района, Ошской области",NA,NA
-"Ташкент","41.2666667","69.2166667"
-"Demoland","35.8832814","-118.2092466"
-"miguel aleman","18.2457545","-96.5143087"
+"Ташкент",41.2666667,69.2166667
+"Demoland",35.8832814,-118.2092466
+"miguel aleman",18.2457545,-96.5143087
 "Testing Purposes Only (Please Delete aftr Testing)",NA,NA
-"Palo Alto Test Lab","37.4186577","-122.2057319"
-"Nuevo Laredo ","27.4800237","-99.5105349"
-"México DF ","19.4326077","-99.133208"
-"Ciudad Juarez, Chih.","31.7311292","-106.4625624"
-"México","23.634501","-102.552784"
-"Méxic DF ","19.4326077","-99.133208"
-"Oaxaca, 0ax.","19.6665781","-99.0093342"
-"México, DF ","19.4326077","-99.133208"
-"Quito","-0.223151","-78.512677"
-"Cd. Juárez","31.7311292","-106.4625624"
-"Distrito Federal","19.2464696","-99.1013498"
-"San Cristobal de Las Casas, Chis.","16.737585","-92.636652"
+"Palo Alto Test Lab",37.4186577,-122.2057319
+"Nuevo Laredo ",27.4800237,-99.5105349
+"México DF ",19.4326077,-99.133208
+"Ciudad Juarez, Chih.",31.7311292,-106.4625624
+"México",23.634501,-102.552784
+"Méxic DF ",19.4326077,-99.133208
+"Oaxaca, 0ax.",19.6665781,-99.0093342
+"México, DF ",19.4326077,-99.133208
+"Quito",-0.223151,-78.512677
+"Cd. Juárez",31.7311292,-106.4625624
+"Distrito Federal",19.2464696,-99.1013498
+"San Cristobal de Las Casas, Chis.",16.737585,-92.636652
 "Nachig, Chis",NA,NA
-"Mexico DF ","19.4326077","-99.133208"
-"CIUDAD JUAREZ, Chih.","31.7311292","-106.4625624"
-"México, DF","19.4326077","-99.133208"
-"Santa Cruz Loxicha, Lorenzo Luna Luna, Oaxaca","17.654705","-97.808888"
-"Monterrey, NL.","25.673211","-100.309201"
-"CIUDAD JUAREZ, CHIH.","31.7311292","-106.4625624"
+"Mexico DF ",19.4326077,-99.133208
+"CIUDAD JUAREZ, Chih.",31.7311292,-106.4625624
+"México, DF",19.4326077,-99.133208
+"Santa Cruz Loxicha, Lorenzo Luna Luna, Oaxaca",17.654705,-97.808888
+"Monterrey, NL.",25.673211,-100.309201
+"CIUDAD JUAREZ, CHIH.",31.7311292,-106.4625624
 "MéxicoDF",NA,NA
-"Puerto Principe","18.539269","-72.336408"
-"Ciudad Juárez","31.7311292","-106.4625624"
-"Ciudad Victoria, Tamps","23.7369164","-99.1411154"
-"Ciudad Juarez, Chih,","31.7311292","-106.4625624"
-"Mexico DF","19.4326077","-99.133208"
-"Madrid,","40.4166909","-3.7003454"
-" Cd. Juárez","31.7311292","-106.4625624"
-"CIUDAD JUÁREZ.","31.7311292","-106.4625624"
-"Washinton ","-6.7517362","-79.8342569"
-"Tlaxiaco, Oaxaca","17.268169","-97.679329"
-"Washington","38.8951118","-77.0363658"
-"Villahermosa, Tab.","17.987557","-92.929147"
-"Municipio de Zinacantan, Chis.","16.7594787","-92.7216306"
-"Santa María Chimalapa, Oax.","16.9089318","-94.6838743"
-"Cd. Juarez ","31.7311292","-106.4625624"
-"Mexico, DF","19.4326077","-99.133208"
-"Tapachula, Chis.","14.9","-92.2666667"
-"Ciudad Juárez, Chihuahua","31.7311292","-106.4625624"
-"Monterrey, NL","25.673211","-100.309201"
-"México DF","19.4326077","-99.133208"
-"Londres y Madrid","25.5689307","-103.426069"
-"Ciudad Juárez , Chih.","31.7311292","-106.4625624"
-"Ciudad juárez , Chih.","31.7311292","-106.4625624"
-"Oaxaca","17.1657706","-97.092877"
-"ACAPULCO / Guerrero","16.863794","-99.881614"
-"México,  DF ","19.4326077","-99.133208"
-"Ciudad juárez , Chih. ","31.7311292","-106.4625624"
-"Ciudad juárez , Chih","31.7311292","-106.4625624"
-"Mexico","23.634501","-102.552784"
-"San José, CR","9.9333333","-84.0833333"
-"Chiapas","16.1400945","-92.7779813"
-"LA HAYA","52.0698576","4.2911114"
-"Tuxtla gutiérrez , Chis. ","16.75","-93.1166667"
-"Santafe de Bogota","4.5980556","-74.0758333"
-"WASHINGTON","38.8951118","-77.0363658"
-"WASHINGTON.","38.8951118","-77.0363658"
-"Ciudad Juárez, Chih.","31.7311292","-106.4625624"
-"San Cristobal De Las Casas, Chis.","16.737585","-92.636652"
-"Queretaro","20.5930556","-100.3922222"
-"CIUDAD JUÁREZ","31.7311292","-106.4625624"
-"Monterrey , NL.","25.673211","-100.309201"
-"San Cristobal de las Casas, Chis.","16.737585","-92.636652"
-"MONTERREY","25.673211","-100.309201"
-"Hermosillo, Son.","29.0891857","-110.9613299"
-"Tuxtla Gutiérrez , Chis.","16.75","-93.1166667"
-"Tuxtla Gutierrez, Chis. ","16.75","-93.1166667"
-"México,  DF","19.4326077","-99.133208"
-"Guerrero","17.4391926","-99.5450974"
-"Londres","51.5001524","-0.1262362"
-"Washington y Nueva York","41.7866667","-73.6813889"
+"Puerto Principe",18.539269,-72.336408
+"Ciudad Juárez",31.7311292,-106.4625624
+"Ciudad Victoria, Tamps",23.7369164,-99.1411154
+"Ciudad Juarez, Chih,",31.7311292,-106.4625624
+"Mexico DF",19.4326077,-99.133208
+"Madrid,",40.4166909,-3.7003454
+" Cd. Juárez",31.7311292,-106.4625624
+"CIUDAD JUÁREZ.",31.7311292,-106.4625624
+"Washinton ",-6.7517362,-79.8342569
+"Tlaxiaco, Oaxaca",17.268169,-97.679329
+"Washington",38.8951118,-77.0363658
+"Villahermosa, Tab.",17.987557,-92.929147
+"Municipio de Zinacantan, Chis.",16.7594787,-92.7216306
+"Santa María Chimalapa, Oax.",16.9089318,-94.6838743
+"Cd. Juarez ",31.7311292,-106.4625624
+"Mexico, DF",19.4326077,-99.133208
+"Tapachula, Chis.",14.9,-92.2666667
+"Ciudad Juárez, Chihuahua",31.7311292,-106.4625624
+"Monterrey, NL",25.673211,-100.309201
+"México DF",19.4326077,-99.133208
+"Londres y Madrid",25.5689307,-103.426069
+"Ciudad Juárez , Chih.",31.7311292,-106.4625624
+"Ciudad juárez , Chih.",31.7311292,-106.4625624
+"Oaxaca",17.1657706,-97.092877
+"ACAPULCO / Guerrero",16.863794,-99.881614
+"México,  DF ",19.4326077,-99.133208
+"Ciudad juárez , Chih. ",31.7311292,-106.4625624
+"Ciudad juárez , Chih",31.7311292,-106.4625624
+"Mexico",23.634501,-102.552784
+"San José, CR",9.9333333,-84.0833333
+"Chiapas",16.1400945,-92.7779813
+"LA HAYA",52.0698576,4.2911114
+"Tuxtla gutiérrez , Chis. ",16.75,-93.1166667
+"Santafe de Bogota",4.5980556,-74.0758333
+"WASHINGTON",38.8951118,-77.0363658
+"WASHINGTON.",38.8951118,-77.0363658
+"Ciudad Juárez, Chih.",31.7311292,-106.4625624
+"San Cristobal De Las Casas, Chis.",16.737585,-92.636652
+"Queretaro",20.5930556,-100.3922222
+"CIUDAD JUÁREZ",31.7311292,-106.4625624
+"Monterrey , NL.",25.673211,-100.309201
+"San Cristobal de las Casas, Chis.",16.737585,-92.636652
+"MONTERREY",25.673211,-100.309201
+"Hermosillo, Son.",29.0891857,-110.9613299
+"Tuxtla Gutiérrez , Chis.",16.75,-93.1166667
+"Tuxtla Gutierrez, Chis. ",16.75,-93.1166667
+"México,  DF",19.4326077,-99.133208
+"Guerrero",17.4391926,-99.5450974
+"Londres",51.5001524,-0.1262362
+"Washington y Nueva York",41.7866667,-73.6813889
 "Realizan plantón en la representación jalisciense en el DF  | Formal prisión a altermundistas, asunto político, afirman ONG ",NA,NA
-"Ginebra","46.1983922","6.1422961"
-"cerigua | Guatemala","15.783471","-90.230759"
-"Monterrey, NL ","25.673211","-100.309201"
-"Tlaxcala, Tlax.","19.3122222","-98.2394444"
-"Chihuahua, Chih.","28.6352778","-106.0888889"
-"La Habana","23.1168","-82.388557"
-"México, DF, ","19.4326077","-99.133208"
-"Madrid","40.4166909","-3.7003454"
-"DF","-15.826691","-47.9218204"
-"CHIHUAHUA, CHIH.","28.6352778","-106.0888889"
-"Ciudad Juarez, Chih","31.7311292","-106.4625624"
-"Juchitán , Oax","16.4329097","-95.0180514"
-"Tuxtla gutiérrez , Chis","16.75","-93.1166667"
+"Ginebra",46.1983922,6.1422961
+"cerigua | Guatemala",15.783471,-90.230759
+"Monterrey, NL ",25.673211,-100.309201
+"Tlaxcala, Tlax.",19.3122222,-98.2394444
+"Chihuahua, Chih.",28.6352778,-106.0888889
+"La Habana",23.1168,-82.388557
+"México, DF, ",19.4326077,-99.133208
+"Madrid",40.4166909,-3.7003454
+"DF",-15.826691,-47.9218204
+"CHIHUAHUA, CHIH.",28.6352778,-106.0888889
+"Ciudad Juarez, Chih",31.7311292,-106.4625624
+"Juchitán , Oax",16.4329097,-95.0180514
+"Tuxtla gutiérrez , Chis",16.75,-93.1166667
 "Jechbó , Chis.",NA,NA
-"México, D.F.","19.4326077","-99.133208"
-"Tuxtla Gutierrez, Chis.","16.75","-93.1166667"
-"Johannesburgo","-26.2041028","28.0473051"
-"TLAPA DE COMONFORT, GUERRERO","17.5464224","-98.5745759"
-"Cd. Juárez, Chihuahua ","31.7311292","-106.4625624"
-"Tuxtla  Gutierrez, Chis.","16.75","-93.1166667"
-"Chilpancingo, Guerrero","17.55","-99.5"
-"MADRID","40.4166909","-3.7003454"
-"México ","23.634501","-102.552784"
-"El Triunfo, municipio de San Juan Guichicovi, Oaxaca","16.9629744","-95.0941536"
+"México, D.F.",19.4326077,-99.133208
+"Tuxtla Gutierrez, Chis.",16.75,-93.1166667
+"Johannesburgo",-26.2041028,28.0473051
+"TLAPA DE COMONFORT, GUERRERO",17.5464224,-98.5745759
+"Cd. Juárez, Chihuahua ",31.7311292,-106.4625624
+"Tuxtla  Gutierrez, Chis.",16.75,-93.1166667
+"Chilpancingo, Guerrero",17.55,-99.5
+"MADRID",40.4166909,-3.7003454
+"México ",23.634501,-102.552784
+"El Triunfo, municipio de San Juan Guichicovi, Oaxaca",16.9629744,-95.0941536
 " Conferencia Regional sobre la Mujer en América Latina y el Caribe, ",NA,NA
-"Baja California","30.8406338","-115.2837585"
-"Pueblo Santa Maria Sola","18.9517273","-98.2437443"
-"ARIZONA","34.0489281","-111.0937311"
+"Baja California",30.8406338,-115.2837585
+"Pueblo Santa Maria Sola",18.9517273,-98.2437443
+"ARIZONA",34.0489281,-111.0937311
 "Везде",NA,NA
-"Insein","16.91535","96.0373"
-"Insein, Rangoon","16.91535","96.0373"
+"Insein",16.91535,96.0373
+"Insein, Rangoon",16.91535,96.0373
 "Ingapu,Bassein",NA,NA
-"Burma","21.913965","95.956223"
+"Burma",21.913965,95.956223
 "Insein, Tharawaddy",NA,NA
-"Pegu Division, Burma","18.3312802","96.0679194"
-"Insein, Rangoon and Tharawaddy Prison","16.91535","96.0373"
-"Rangoon, Burma","16.8","96.15"
-"Moulmein Prison","16.4912203","97.624639"
+"Pegu Division, Burma",18.3312802,96.0679194
+"Insein, Rangoon and Tharawaddy Prison",16.91535,96.0373
+"Rangoon, Burma",16.8,96.15
+"Moulmein Prison",16.4912203,97.624639
 "Insein, Shwebo",NA,NA
-"Rangoon","16.8","96.15"
-"Tenasserim Division, Burma","12.4706876","99.0128926"
-"Burma, Mandalay Prison","22.0234852","96.0967179"
-"Europe","54.5259614","15.2551187"
+"Rangoon",16.8,96.15
+"Tenasserim Division, Burma",12.4706876,99.0128926
+"Burma, Mandalay Prison",22.0234852,96.0967179
+"Europe",54.5259614,15.2551187
 "Tan Kieng Ward - District 7",NA,NA
 "Ywa Thit village, Singu village and Hangan villages",NA,NA
-"Duya village","15.25445","97.782204"
+"Duya village",15.25445,97.782204
 "both northern and southern part of Ye town",NA,NA
 "Kanpauk area",NA,NA
 "Kao Jaer village",NA,NA
-"Moulmein Capital","16.484591","97.625931"
-"Thanbyuzayat ","15.9666667","97.7333333"
+"Moulmein Capital",16.484591,97.625931
+"Thanbyuzayat ",15.9666667,97.7333333
 "Kabya-wa village",NA,NA
 "Krane Kanya village",NA,NA
 "Kyait Roi village ",NA,NA
 "Wae-kha-dard, Sakharn, Chork-pa-line, Wae-kha-meat,  Wae-toer, Kalaing-pa-taw and Ywa thar-aye, Kayokpi, Wae-klorn, Ong-Khae, Kork-lay, Proad, Anin, Lay-Yin-Kwin, Waen Choen, and Waen Chae villages",NA,NA
-"The whole areas in Mon State","17.0626039","97.3516558"
+"The whole areas in Mon State",17.0626039,97.3516558
 "Mon villages in Ye Township",NA,NA
 "Tha-mar-saing village, on Thaton and Beelin Mortor Road",NA,NA
 "Khaw-zar Sub-Town",NA,NA
@@ -195,11 +195,11 @@
 "Mayan, Chauk-sae-miles, Kwe-ta-lin, Ya-pu, Ya-pu-ywa-thit, Law-thaing, Kyauk-ka-din and Aleskan villages",NA,NA
 "alon Ye - Thanbyuzayat Motor road",NA,NA
 "Krein Ka Nyar village",NA,NA
-"many Mon villages in Mudon and Thanbyuzayat Townships in south Mon State","17.0626039","97.3516558"
+"many Mon villages in Mudon and Thanbyuzayat Townships in south Mon State",17.0626039,97.3516558
 "Chak Toa village",NA,NA
 "Anan-gwin village, Thanbyuzayat Township",NA,NA
 "villages from southern part of Ye township",NA,NA
-"Khaw-zar","-27.6333333","23.8166667"
+"Khaw-zar",-27.6333333,23.8166667
 "villages from southern part of Ye Township and northern part of Yebyu Township",NA,NA
 "The-chaung, Talaing-myaw, Thingun-taw, Taput-chaung, Kadot-chaung and Kin-taung villages",NA,NA
 "Southern and some villages in nothern Ye Township",NA,NA
@@ -209,130 +209,130 @@
 "Alae-sakharn village, Ya Pu village, Tenasserim Division",NA,NA
 "Lort-thaing, Wae-peer village, Kwe-talin village and Kanpauk area",NA,NA
 "Zee -Hna-Pin Village, about 13 miles in east of Thanbyuzayat Town",NA,NA
-"Waeng Kyam village","17.0370332","104.5098626"
+"Waeng Kyam village",17.0370332,104.5098626
 "Duya village-tract and Ain-Din village tract, Plaing-thein, Hnin-sone, Krock-kree, Kaw-krait, Aindin, Paw-htaw and Duya village tracts",NA,NA
 "Khawzar, Yin-ye, Shwe-hinda, Mi-htaw-hlar-kalay and Kyonekanya villages",NA,NA
-"Yin-Ye village","30.0694031","121.1778125"
-"Pauk-pin-gwin villge in Yebyu Township (in Tenasserim Division), Magyi and Dani-kyar villages in southern part of Ye Township (in Mon State)","17.0626039","97.3516558"
+"Yin-Ye village",30.0694031,121.1778125
+"Pauk-pin-gwin villge in Yebyu Township (in Tenasserim Division), Magyi and Dani-kyar villages in southern part of Ye Township (in Mon State)",17.0626039,97.3516558
 "Magyi and Mi-taw-hla villages",NA,NA
-"Moulmein Capital ","16.484591","97.625931"
+"Moulmein Capital ",16.484591,97.625931
 "Kroke-pi (Kroke-poi in Mon) village, Thanphyuzayat Township",NA,NA
-"Kroke-pi village, Thanbyuzayat township of Mon State","17.0626039","97.3516558"
+"Kroke-pi village, Thanbyuzayat township of Mon State",17.0626039,97.3516558
 "In-sein jail, Rangoon Capital",NA,NA
 "Ohn Pin Kwin and Phaung Daw villages",NA,NA
 "Kaw-hlaing village",NA,NA
-"Pegu","17.32774","96.498451"
+"Pegu",17.32774,96.498451
 "Hangan Village, Krone-kanya village, Win-kyan village, Day-bound Village, Mi-htaw-hla-kalay village",NA,NA
-"In the middle part and southern part of Mon state","17.0626039","97.3516558"
+"In the middle part and southern part of Mon state",17.0626039,97.3516558
 " Khaw-za and Magyi",NA,NA
 "Aleskan, Yapu, Kyauk-kadin, Mae-taw and Kwe-ta-lin villages",NA,NA
-"Waekali village","19.9325","-155.8277778"
+"Waekali village",19.9325,-155.8277778
 "Wae-kwao (Paukpingwin), Magyi, Dani-kyar villages and some villages in northern Yebyu township",NA,NA
 "Ham Gam village",NA,NA
 "Wae-ka-li village",NA,NA
 "Krein Kanyar in southern Ye",NA,NA
-"Ywa-Thit village ","20.7384114","95.2168807"
+"Ywa-Thit village ",20.7384114,95.2168807
 "Gu KhaTaw near Du-Yar (Durae) village",NA,NA
-"Mi-htaw-hlar-kalay village","44.3148443","-85.6023643"
-"central and southern  Mon state","17.0626039","97.3516558"
+"Mi-htaw-hlar-kalay village",44.3148443,-85.6023643
+"central and southern  Mon state",17.0626039,97.3516558
 "maison",NA,NA
-"BEN TALHA ","36.6479554","3.080162"
-"Caracas, Venezuela","10.491016","-66.902061"
-"Bogota","4.5980556","-74.0758333"
-"bogota","4.5980556","-74.0758333"
-"bogota 2","7.9086234","-72.4969982"
-"Kalangala","-0.3208374","32.2937428"
-"KENYA","-0.023559","37.906193"
-"Kenya","-0.023559","37.906193"
-"Kisumu","-0.09516","34.74733"
-"ilishe","39.1079397","117.2087838"
+"BEN TALHA ",36.6479554,3.080162
+"Caracas, Venezuela",10.491016,-66.902061
+"Bogota",4.5980556,-74.0758333
+"bogota",4.5980556,-74.0758333
+"bogota 2",7.9086234,-72.4969982
+"Kalangala",-0.3208374,32.2937428
+"KENYA",-0.023559,37.906193
+"Kenya",-0.023559,37.906193
+"Kisumu",-0.09516,34.74733
+"ilishe",39.1079397,117.2087838
 "Azin village in Section 3",NA,NA
-"Tunis","33.886917","9.537499"
-"Minsk","53.9","27.5666667"
-"EKITI STATE","7.6655813","5.3102505"
-"Batangas City","13.7572111","121.0581111"
-"aaaa","30.0773832","52.6997852"
-"Europe 1","39.39615","22.76303"
-"Nairobi","-1.2833333","36.8166667"
-"Eastern Africa","1.957709","37.2972044"
-"Gavar ","40.3588889","45.1266667"
-"Yerevan","40.183333","44.516667"
+"Tunis",33.886917,9.537499
+"Minsk",53.9,27.5666667
+"EKITI STATE",7.6655813,5.3102505
+"Batangas City",13.7572111,121.0581111
+"aaaa",30.0773832,52.6997852
+"Europe 1",39.39615,22.76303
+"Nairobi",-1.2833333,36.8166667
+"Eastern Africa",1.957709,37.2972044
+"Gavar ",40.3588889,45.1266667
+"Yerevan",40.183333,44.516667
 "Ani hotel",NA,NA
-" VICTORIA ISLANDLAGOS","80.1464735","36.7685953"
-"rubio estado tachira","7.698148","-72.362556"
-"CARACAS","10.491016","-66.902061"
-"El vigìa- Venezuela","8.623754","-71.650047"
-"El vigia - Venezuela","8.623754","-71.650047"
-"Mèrida- Venezuela","8.6","-71.15"
-"Mèrida Venezuela","8.6","-71.15"
-"Mèrida - Venezuela","8.6","-71.15"
-"Mèrida venezuela","8.6","-71.15"
-"Merida Venezuela","8.6","-71.15"
-"Merida venezuela","8.6","-71.15"
-"Timotes - Venezuela","8.9872222","-70.7372222"
-"Mèrida estado Mèrida","8.2508126","-71.8288949"
-"El vigìa - Venezuela","8.623754","-71.650047"
-"Merida-Venezuela ","8.6","-71.15"
-"Vigia - Venezuela","8.623754","-71.650047"
-"seattle","47.6062095","-122.3320708"
-"Vietnam","14.058324","108.277199"
-"Vienam","14.058324","108.277199"
-"yangon","16.8","96.15"
-"Thailand","15.870032","100.992541"
-"cairo","30.064742","31.249509"
+" VICTORIA ISLANDLAGOS",80.1464735,36.7685953
+"rubio estado tachira",7.698148,-72.362556
+"CARACAS",10.491016,-66.902061
+"El vigìa- Venezuela",8.623754,-71.650047
+"El vigia - Venezuela",8.623754,-71.650047
+"Mèrida- Venezuela",8.6,-71.15
+"Mèrida Venezuela",8.6,-71.15
+"Mèrida - Venezuela",8.6,-71.15
+"Mèrida venezuela",8.6,-71.15
+"Merida Venezuela",8.6,-71.15
+"Merida venezuela",8.6,-71.15
+"Timotes - Venezuela",8.9872222,-70.7372222
+"Mèrida estado Mèrida",8.2508126,-71.8288949
+"El vigìa - Venezuela",8.623754,-71.650047
+"Merida-Venezuela ",8.6,-71.15
+"Vigia - Venezuela",8.623754,-71.650047
+"seattle",47.6062095,-122.3320708
+"Vietnam",14.058324,108.277199
+"Vienam",14.058324,108.277199
+"yangon",16.8,96.15
+"Thailand",15.870032,100.992541
+"cairo",30.064742,31.249509
 "Home",NA,NA
 "home",NA,NA
-"MIRIKI","48.894376","9.164657"
+"MIRIKI",48.894376,9.164657
 "Venezuela , situacion en todo el territorio nacional",NA,NA
-"pasaje servilla , cerca de la avenida ferzas armas, Municipio Libertador, Caracas, Venezuela","10.4776082","-66.9273193"
+"pasaje servilla , cerca de la avenida ferzas armas, Municipio Libertador, Caracas, Venezuela",10.4776082,-66.9273193
 "iNSTALACIONES MILITARES EN CUMANA, SELDA DE CASTIGO BATALLON DE CAZADOSRES EN CUMANA. ",NA,NA
-"Beni","0.488453","29.45895"
-"العراق / واسط / الكوت ","32.5147222","45.8188889"
-"Namtu to Man Tong, Palaung land, North Shan State,","22.0361985","98.1338558"
-" Muerng Wee Township, Palaung Land, North Shan State","22.0361985","98.1338558"
-"Namtu Township, Palaung Land, North Shan State","22.0361985","98.1338558"
-"Mantong Township, Palaung Land, North Shan State","22.0361985","98.1338558"
-"Montong Township, Palaung Land, North Shan State","22.0361985","98.1338558"
-"NamKham Township, Palaung Land, North Shan State","22.0361985","98.1338558"
-"Mongton Township, Palaung Land, North Shan State","22.0361985","98.1338558"
-"Namkham Township Palaung Land, Northern Shan State","22.0361985","98.1338558"
-"Namtu township Palaung Land, North Shan State","22.0361985","98.1338558"
-"Maing Wee","45.1273901","-87.244634"
-"Mantong Township and Namsan Township, Palaung land, Northern Shan State","22.0361985","98.1338558"
+"Beni",0.488453,29.45895
+"العراق / واسط / الكوت ",32.5147222,45.8188889
+"Namtu to Man Tong, Palaung land, North Shan State,",22.0361985,98.1338558
+" Muerng Wee Township, Palaung Land, North Shan State",22.0361985,98.1338558
+"Namtu Township, Palaung Land, North Shan State",22.0361985,98.1338558
+"Mantong Township, Palaung Land, North Shan State",22.0361985,98.1338558
+"Montong Township, Palaung Land, North Shan State",22.0361985,98.1338558
+"NamKham Township, Palaung Land, North Shan State",22.0361985,98.1338558
+"Mongton Township, Palaung Land, North Shan State",22.0361985,98.1338558
+"Namkham Township Palaung Land, Northern Shan State",22.0361985,98.1338558
+"Namtu township Palaung Land, North Shan State",22.0361985,98.1338558
+"Maing Wee",45.1273901,-87.244634
+"Mantong Township and Namsan Township, Palaung land, Northern Shan State",22.0361985,98.1338558
 "Mang Sat and Mang Puu village (near the Paddy farm of Mang Sat) ",NA,NA
-"Namsan Township, Palaung land, Northern of Shan State","22.0361985","98.1338558"
-"Pang Long, Palaung Land, Northern Shan State","22.0361985","98.1338558"
-"Pang Long Township, Palaung Land,northern Shan State.","22.0361985","98.1338558"
-" Murng Wee township, Palaung Land,Northern Shan State,","22.0361985","98.1338558"
-"Namkham Township, Palaung Land, Northern Shan State","22.0361985","98.1338558"
-"Namsan Township, Palaung Land, North Shan State","22.0361985","98.1338558"
+"Namsan Township, Palaung land, Northern of Shan State",22.0361985,98.1338558
+"Pang Long, Palaung Land, Northern Shan State",22.0361985,98.1338558
+"Pang Long Township, Palaung Land,northern Shan State.",22.0361985,98.1338558
+" Murng Wee township, Palaung Land,Northern Shan State,",22.0361985,98.1338558
+"Namkham Township, Palaung Land, Northern Shan State",22.0361985,98.1338558
+"Namsan Township, Palaung Land, North Shan State",22.0361985,98.1338558
 "Namkham Township, Palaung Land",NA,NA
-"Maing Wee  ","45.1273901","-87.244634"
-"Namtu Township, Palaung land, North Shan State","22.0361985","98.1338558"
-"Man Tong township, Palaung Land, North Shan State","22.0361985","98.1338558"
-"Namsan Township, Palaung Land, Nothern Shan State","22.0361985","98.1338558"
+"Maing Wee  ",45.1273901,-87.244634
+"Namtu Township, Palaung land, North Shan State",22.0361985,98.1338558
+"Man Tong township, Palaung Land, North Shan State",22.0361985,98.1338558
+"Namsan Township, Palaung Land, Nothern Shan State",22.0361985,98.1338558
 "Namk Sike, Man Puu, Namk Mak villages",NA,NA
-"Mong Tong Township, Palaung Land, Shan State","22.0361985","98.1338558"
-"Mong Tong Township, Palaung Land, North Shan State","22.0361985","98.1338558"
-"Namsam Township, Palaung Land, Northern Shan State","22.0361985","98.1338558"
-"Namkham Maing Wee, Palaung Land, Northern Shan State","22.0361985","98.1338558"
-"Mantong Township, Palaung Land, Norht Shan State","22.0361985","98.1338558"
-"Mong Tong township, Palaung Land, North Shan State","22.0361985","98.1338558"
-"NamKham Township, Palaung Land, Northern Shan State","22.0361985","98.1338558"
-" Nakawngmu village","26.3091667","127.7772222"
+"Mong Tong Township, Palaung Land, Shan State",22.0361985,98.1338558
+"Mong Tong Township, Palaung Land, North Shan State",22.0361985,98.1338558
+"Namsam Township, Palaung Land, Northern Shan State",22.0361985,98.1338558
+"Namkham Maing Wee, Palaung Land, Northern Shan State",22.0361985,98.1338558
+"Mantong Township, Palaung Land, Norht Shan State",22.0361985,98.1338558
+"Mong Tong township, Palaung Land, North Shan State",22.0361985,98.1338558
+"NamKham Township, Palaung Land, Northern Shan State",22.0361985,98.1338558
+" Nakawngmu village",26.3091667,127.7772222
 "Pan Khar Gyi",NA,NA
 "Talet village, near Kalar Kon",NA,NA
-"Mantong Twonship, Palaung Land, North Shan State","22.0361985","98.1338558"
-"Namsan Township, Southern Shan State","22.0361985","98.1338558"
+"Mantong Twonship, Palaung Land, North Shan State",22.0361985,98.1338558
+"Namsan Township, Southern Shan State",22.0361985,98.1338558
 "Palaung villages in Namhsan, Mong Tong, Mong Mit, Nahkam Townships",NA,NA
-"Manton township, Palaung Land, North Shan State","22.0361985","98.1338558"
-"Namtu and Lashio, Palaung Land, North Shan State","22.0361985","98.1338558"
+"Manton township, Palaung Land, North Shan State",22.0361985,98.1338558
+"Namtu and Lashio, Palaung Land, North Shan State",22.0361985,98.1338558
 "Namsan Township, Palaung Land",NA,NA
-"MonTong Township, Palaung Land, Shan State","22.0361985","98.1338558"
-"Mong Tong Twonship, Palaung Land, North Shan State","22.0361985","98.1338558"
-"Kutkai township, Namsan Township.northern Shan State,","22.0361985","98.1338558"
+"MonTong Township, Palaung Land, Shan State",22.0361985,98.1338558
+"Mong Tong Twonship, Palaung Land, North Shan State",22.0361985,98.1338558
+"Kutkai township, Namsan Township.northern Shan State,",22.0361985,98.1338558
 "Namsan Township, Palaung land",NA,NA
-"Metro Manila,Philippines","14.6090537","121.0222565"
+"Metro Manila,Philippines",14.6090537,121.0222565
 "Pruso Township",NA,NA
 "Villages in Rih Township",NA,NA
 "Manoroue village area at Lay Law K'Tei Hkee ",NA,NA
@@ -357,19 +357,19 @@
 "Mae Plat Toe area,Tee Sa Ra village and Koe Ko village",NA,NA
 "Hle Seik village, on the Tenasserim-Moe Daung car road in Tenasserim Township, Mergui District",NA,NA
 "Kun-Hing Township",NA,NA
-"Sabawngpi village","22.083771","93.133827"
+"Sabawngpi village",22.083771,93.133827
 "Doo Pa Leh area in Htee Bla village tract in Shwe Gyin Township",NA,NA
 "Villages in Murng-Pan Township",NA,NA
-"Haai Ngern village ","19.90685","99.84115"
+"Haai Ngern village ",19.90685,99.84115
 "Paw Likay Kho village in Kyau Kyi Township",NA,NA
 "Waw Kyeh Koh, Hto Kaw Ko, Kho Thay Lu",NA,NA
-"Pa Kloo village, Na Boo Township","41.2033216","-77.1945247"
+"Pa Kloo village, Na Boo Township",41.2033216,-77.1945247
 "Murng-Kerng",NA,NA
 "Pah Kloo village ",NA,NA
 "Kun-Hing town area",NA,NA
 "Paang Saang village tract, Lai-Kha Township",NA,NA
 "Daw Takleh, Daw Tanaw and Nguthweleh villages in the Kaylya area",NA,NA
-"Pa Wa area, Taungoo District","41.2033216","-77.1945247"
+"Pa Wa area, Taungoo District",41.2033216,-77.1945247
 "Teddim Township",NA,NA
 "Murng-Kerng town market",NA,NA
 "hideout site near the Karenni-Karen border",NA,NA
@@ -385,261 +385,261 @@
 "Thantlang Township",NA,NA
 "Ker Pu (Tha-yet-taw) and Kaw Pya (Kaw-law) village tracts",NA,NA
 "Lay Khaw Hti village in Kya Inn Township",NA,NA
-"Pa-an District","25.0264865","121.534437"
-"Tha Pan Chaung","13.7554411","100.4892918"
+"Pa-an District",25.0264865,121.534437
+"Tha Pan Chaung",13.7554411,100.4892918
 "Kaw Soe Kho village in Tan Da Bin Township, Toungoo District",NA,NA
-"Murng-Su","15.4605234","103.2279773"
+"Murng-Su",15.4605234,103.2279773
 "Shan Gyaung village, Mone Township",NA,NA
 "Tha Pan Chaung, Zayat Gyi village, Tantabin Township",NA,NA
 "Thwee Der village, northern Muthraw District",NA,NA
-"Pa-an District, Karen State","41.2033216","-77.1945247"
+"Pa-an District, Karen State",41.2033216,-77.1945247
 "Bamo District, Myo Thit township",NA,NA
 "Lai-Kha, Kae-See and Murng-Kerng Townships",NA,NA
 "Murng-Ton, Murng-Ton Township",NA,NA
 "Pler Kaw Plaw, Kyauk Kyi Township",NA,NA
 "Mar Lar Daw village in Mone Township",NA,NA
-"Phlo Htee village","40.0069761","-88.1580999"
-"Kaeng-Tung","15.4948947","105.2957134"
+"Phlo Htee village",40.0069761,-88.1580999
+"Kaeng-Tung",15.4948947,105.2957134
 "Pasawlaw (Michaunglong) village",NA,NA
 "Villages from Rih Township",NA,NA
 "Kyi Kan Pyin Village in Maungdaw Township North",NA,NA
-"Chin State","21.4405225","93.4195527"
+"Chin State",21.4405225,93.4195527
 "Mae Plet village, Shwe Koak Ko, Myawaddy Township",NA,NA
-"Rih town","48.2716667","37.2075"
+"Rih town",48.2716667,37.2075
 "Nam-Zarng Township, Kaad Yaang village, Lai-Kha Township",NA,NA
-"Mi Tawhlar village in southern Ye Township","44.3148443","-85.6023643"
-"Haang Naa village","22.683333","97.616667"
+"Mi Tawhlar village in southern Ye Township",44.3148443,-85.6023643
+"Haang Naa village",22.683333,97.616667
 "Mae Ka Ti village, Kaw Ka Reik Township",NA,NA
-"Seattle, Washington","47.6062095","-122.3320708"
-"864 Delia Avenue, Akron, OH 44320","41.092082","-81.547242"
-"Cave Creek, AZ, USA","33.8333716","-111.9507042"
-"Akron, Ohio","41.0814447","-81.5190053"
-"Akron, OH, USA","41.0814447","-81.5190053"
-"Akron, OH","41.0814447","-81.5190053"
-"Akron, OHio, USA","41.0814447","-81.5190053"
-"West Exchange, Akron, Ohio","41.091248","-81.5446657"
-"Akron, Ohio, USA","41.0814447","-81.5190053"
-"Seattle, Washington, the community of Magnolia","47.6578136","-122.3592304"
-"bogota, cundinamarca","4.5980556","-74.0758333"
-"Karen State","16.9459346","97.9592863"
-"Armenia","40.069099","45.038189"
-"Goris","41.981361","44.109539"
-"CH 00 00","27.9135369","-110.8981716"
+"Seattle, Washington",47.6062095,-122.3320708
+"864 Delia Avenue, Akron, OH 44320",41.092082,-81.547242
+"Cave Creek, AZ, USA",33.8333716,-111.9507042
+"Akron, Ohio",41.0814447,-81.5190053
+"Akron, OH, USA",41.0814447,-81.5190053
+"Akron, OH",41.0814447,-81.5190053
+"Akron, OHio, USA",41.0814447,-81.5190053
+"West Exchange, Akron, Ohio",41.091248,-81.5446657
+"Akron, Ohio, USA",41.0814447,-81.5190053
+"Seattle, Washington, the community of Magnolia",47.6578136,-122.3592304
+"bogota, cundinamarca",4.5980556,-74.0758333
+"Karen State",16.9459346,97.9592863
+"Armenia",40.069099,45.038189
+"Goris",41.981361,44.109539
+"CH 00 00",27.9135369,-110.8981716
 "Paletwa Township ",NA,NA
-"CH","46.818188","8.227512"
-"Thaingin village","47.969879","10.958277"
+"CH",46.818188,8.227512
+"Thaingin village",47.969879,10.958277
 "rwlyD+rdK@e,",NA,NA
-"pcdkif;aus;&Gm ","40.5675388","-89.640658"
+"pcdkif;aus;&Gm ",40.5675388,-89.640658
 "[m;cg;+rdK@",NA,NA
-"Ani Plaza","19.3928143","-99.1968597"
-"Boston","42.3584308","-71.0597732"
+"Ani Plaza",19.3928143,-99.1968597
+"Boston",42.3584308,-71.0597732
 "Aldea  Chenen Chub",NA,NA
 "Aldea  Chenen",NA,NA
-"Mérida / Venezuela","8.6","-71.15"
-"Mèrida-Venezuela","8.6","-71.15"
-"Merida","20.97","-89.62"
-"Mèrida","20.97","-89.62"
-"Mérida, Venezuela.","8.6","-71.15"
-"Mérida / Venezuela.","8.6","-71.15"
-"Mérida/Venezuela","8.6","-71.15"
-"Merida/Venezuela","8.6","-71.15"
-"Mèrida-Venezuela | ","8.6","-71.15"
-"Mérida","20.97","-89.62"
-"Mérida, Venezuela","8.6","-71.15"
-"Merida, Venezuela","8.6","-71.15"
-"merida/venezuela","8.6","-71.15"
-" Mérida","20.97","-89.62"
-"Merida/ Venezuela","8.6","-71.15"
-"Mèrida-_Venezuela","8.6","-71.15"
-"Mèrida- vnezuela","8.6","-71.15"
+"Mérida / Venezuela",8.6,-71.15
+"Mèrida-Venezuela",8.6,-71.15
+"Merida",20.97,-89.62
+"Mèrida",20.97,-89.62
+"Mérida, Venezuela.",8.6,-71.15
+"Mérida / Venezuela.",8.6,-71.15
+"Mérida/Venezuela",8.6,-71.15
+"Merida/Venezuela",8.6,-71.15
+"Mèrida-Venezuela | ",8.6,-71.15
+"Mérida",20.97,-89.62
+"Mérida, Venezuela",8.6,-71.15
+"Merida, Venezuela",8.6,-71.15
+"merida/venezuela",8.6,-71.15
+" Mérida",20.97,-89.62
+"Merida/ Venezuela",8.6,-71.15
+"Mèrida-_Venezuela",8.6,-71.15
+"Mèrida- vnezuela",8.6,-71.15
 "meida/ Venezuela",NA,NA
 "Mung Hsu",NA,NA
-"Aygedzor","40.8255556","45.5408333"
-"Ho Chi Minh City, VN","10.8230989","106.6296638"
-"Ho Chi Minh City","10.8230989","106.6296638"
-"Chiang Mai","18.7964642","98.6600586"
-"Wajir","1.7472222","40.0688889"
+"Aygedzor",40.8255556,45.5408333
+"Ho Chi Minh City, VN",10.8230989,106.6296638
+"Ho Chi Minh City",10.8230989,106.6296638
+"Chiang Mai",18.7964642,98.6600586
+"Wajir",1.7472222,40.0688889
 "alskjdlasdjalskjdaslk",NA,NA
-"Nigeria","9.081999","8.675277"
-"langata","-1.3666667","36.7333333"
-"US","37.09024","-95.712891"
-"Stepanavan, ","41.009625","44.3840861"
-"Ye Township, Mon State","17.0626039","97.3516558"
+"Nigeria",9.081999,8.675277
+"langata",-1.3666667,36.7333333
+"US",37.09024,-95.712891
+"Stepanavan, ",41.009625,44.3840861
+"Ye Township, Mon State",17.0626039,97.3516558
 "Thanbyuzayat Township",NA,NA
-"Ye township, Mon State","17.0626039","97.3516558"
+"Ye township, Mon State",17.0626039,97.3516558
 "Yebyu Township, Tenasserim Division",NA,NA
 " Yepyu Township of Tenasserim Division",NA,NA
 "Ye township",NA,NA
-"Mon area","43.522387","-5.6698479"
-"area","52.5253958","5.5042503"
+"Mon area",43.522387,-5.6698479
+"area",52.5253958,5.5042503
 "southern part of Ye township",NA,NA
 "La Butta Township",NA,NA
-"Anywhere","29.4573747","-98.4076461"
-"Quito, Ecuador","-0.223151","-78.512677"
-"Test","32.6144404","-108.9852017"
-"Blida ","36.480499","2.833905"
-"larabea Wilaya d'Alger","36.752887","3.042048"
-"pp","45.306829","-92.1981786"
+"Anywhere",29.4573747,-98.4076461
+"Quito, Ecuador",-0.223151,-78.512677
+"Test",32.6144404,-108.9852017
+"Blida ",36.480499,2.833905
+"larabea Wilaya d'Alger",36.752887,3.042048
+"pp",45.306829,-92.1981786
 "Мумба-Юмба",NA,NA
 "Мумба-Юмба  ",NA,NA
 "Тьмутаракань  Энская область",NA,NA
-"Phoenix, Maricopa County, Arizona, USA","33.4483771","-112.0740373"
-"город Воркута","67.4850464","64.0297391"
-"город Москва","55.755786","37.617633"
-"г.Москва, Государственная Дума РФ, армия","55.755786","37.617633"
-"город Москва, Россия","55.755786","37.617633"
-"г. Москва, Россия","55.755786","37.617633"
-"г. Рязань, Россия","54.6246605","39.7385714"
-"г. Душанбе, Таджикистан","38.5366667","68.78"
-"г. Юрга, Кемеровская область, Россия","55.7345084","84.8799666"
-"Московская область, Россия","55.340396","38.2917651"
+"Phoenix, Maricopa County, Arizona, USA",33.4483771,-112.0740373
+"город Воркута",67.4850464,64.0297391
+"город Москва",55.755786,37.617633
+"г.Москва, Государственная Дума РФ, армия",55.755786,37.617633
+"город Москва, Россия",55.755786,37.617633
+"г. Москва, Россия",55.755786,37.617633
+"г. Рязань, Россия",54.6246605,39.7385714
+"г. Душанбе, Таджикистан",38.5366667,68.78
+"г. Юрга, Кемеровская область, Россия",55.7345084,84.8799666
+"Московская область, Россия",55.340396,38.2917651
 "Волгоградская область; Тульская область",NA,NA
-"г. Хабаровск, Россия","48.476719","135.0940705"
-"г. Ростов-на-Дону, Россия","47.2331886","39.7150003"
-"Россия","61.52401","105.318756"
-"г. Воронеж","51.6600188","39.1974105"
-"г.Москва, Россия","55.755786","37.617633"
-"Ba-round village","33.33248","44.418399"
-"bankerohan public market in Davao City","7.190708","125.455341"
-"Davao City","7.190708","125.455341"
-"Lagos","6.4530556","3.3958333"
-"بغداد الجديدة - المشتل","33.33248","44.418399"
-"San Diego","32.7153292","-117.1572551"
+"г. Хабаровск, Россия",48.476719,135.0940705
+"г. Ростов-на-Дону, Россия",47.2331886,39.7150003
+"Россия",61.52401,105.318756
+"г. Воронеж",51.6600188,39.1974105
+"г.Москва, Россия",55.755786,37.617633
+"Ba-round village",33.33248,44.418399
+"bankerohan public market in Davao City",7.190708,125.455341
+"Davao City",7.190708,125.455341
+"Lagos",6.4530556,3.3958333
+"بغداد الجديدة - المشتل",33.33248,44.418399
+"San Diego",32.7153292,-117.1572551
 "West Papua; Papua New Guinea; Border area",NA,NA
-"maiduguri","11.8333333","13.15"
+"maiduguri",11.8333333,13.15
 "baga roadelection",NA,NA
-"test","32.6144404","-108.9852017"
-"Northern part of Kachin State ","25.850904","97.4381355"
-"Maesot","43.2978949","1.710446"
-"Insein Prison","16.8932203","96.0977112"
-"Interrogation Center","23.2264185","69.6659536"
+"test",32.6144404,-108.9852017
+"Northern part of Kachin State ",25.850904,97.4381355
+"Maesot",43.2978949,1.710446
+"Insein Prison",16.8932203,96.0977112
+"Interrogation Center",23.2264185,69.6659536
 "Southern Ye Township",NA,NA
-"Ye township Mon state","17.0626039","97.3516558"
+"Ye township Mon state",17.0626039,97.3516558
 "Toe-tat-yaw thit",NA,NA
-"Mudon Township, Mon State","17.0626039","97.3516558"
-"Ye Township, Mon state","17.0626039","97.3516558"
+"Mudon Township, Mon State",17.0626039,97.3516558
+"Ye Township, Mon state",17.0626039,97.3516558
 "dsgsda",NA,NA
-"zsdgsd","46.2537003","20.146029"
-"Mae Sod","16.6924091","98.5195425"
-"Phnom Penh","11.558831","104.917445"
-"phnom penh","11.558831","104.917445"
-"china-burma border","22.0127319","96.4558464"
-"Narok","-1.0833333","35.8666667"
-"Han Gan village, Ye Township, Mon State, Burma","17.0626039","97.3516558"
-"Yin Ye village, Ye Township, Mon State, Burma","17.0626039","97.3516558"
-"Makmai, Kit Minburi Sub-district, Bangkok","13.7234186","100.4762319"
+"zsdgsd",46.2537003,20.146029
+"Mae Sod",16.6924091,98.5195425
+"Phnom Penh",11.558831,104.917445
+"phnom penh",11.558831,104.917445
+"china-burma border",22.0127319,96.4558464
+"Narok",-1.0833333,35.8666667
+"Han Gan village, Ye Township, Mon State, Burma",17.0626039,97.3516558
+"Yin Ye village, Ye Township, Mon State, Burma",17.0626039,97.3516558
+"Makmai, Kit Minburi Sub-district, Bangkok",13.7234186,100.4762319
 "Maharchai, Thailand",NA,NA
-"Three Pagodas Pass Town, Thai-Burma border, Burma Waekalee village, Thanbyuzayat Township, Moulmein District, Mon State, Burma","17.0626039","97.3516558"
-"Ye town, Mon State, Burma","15.24894","97.856491"
-"Samut Sakhon Province, Thailand","13.5650377","100.2151578"
+"Three Pagodas Pass Town, Thai-Burma border, Burma Waekalee village, Thanbyuzayat Township, Moulmein District, Mon State, Burma",17.0626039,97.3516558
+"Ye town, Mon State, Burma",15.24894,97.856491
+"Samut Sakhon Province, Thailand",13.5650377,100.2151578
 "Mahachi, Samut Sakorn Province, Thailand",NA,NA
-"Mahar Chai, Samut Sakhon Province, Thailand","13.5650377","100.2151578"
+"Mahar Chai, Samut Sakhon Province, Thailand",13.5650377,100.2151578
 "Chumphon province, near Ranong, Southern Thailand",NA,NA
-"Penan island, Malaysia","5.3704487","100.2375823"
-"Kosar Village, Ye Township, Mon State, Burma","17.0626039","97.3516558"
+"Penan island, Malaysia",5.3704487,100.2375823
+"Kosar Village, Ye Township, Mon State, Burma",17.0626039,97.3516558
 "Kroarad community, Mahachai, Thailand.",NA,NA
 "Khaw-Zar sub-township, Mon State, southern Burma",NA,NA
-"the east of Moulmein-Tavoy motor road, Kaloin Ong (Kalein Aung in Burmese) of Yebyu Township, Mon State, Burma","17.0626039","97.3516558"
+"the east of Moulmein-Tavoy motor road, Kaloin Ong (Kalein Aung in Burmese) of Yebyu Township, Mon State, Burma",17.0626039,97.3516558
 "Gawe Pon village, in Mae Ramat district, in the northwestern part of Tak province, northern Thailand",NA,NA
-"Surat Thani Province, Thailand","8.9034051","99.0128926"
-"Penan island,  Malaysia","5.3704487","100.2375823"
+"Surat Thani Province, Thailand",8.9034051,99.0128926
+"Penan island,  Malaysia",5.3704487,100.2375823
 "Three Pagoda Pass, on the Thai-Burma border",NA,NA
-"Magi village, near the Khawzar sub-township, Ye Township, Mon State, Burma.","17.0626039","97.3516558"
-"in Bangkok, Thailand","13.82031","100.6647101"
-"Darfur","44.0513467","-94.8380398"
+"Magi village, near the Khawzar sub-township, Ye Township, Mon State, Burma.",17.0626039,97.3516558
+"in Bangkok, Thailand",13.82031,100.6647101
+"Darfur",44.0513467,-94.8380398
 "Ban Sukh Chai, moo 7, T. Mae Yao, Muang, Chiang Rai, Thailand",NA,NA
-"Burmar","34.1586169","-118.4928609"
-"Chiang Rai, Thailand","19.8737421","99.7232673"
-"Myanmar","21.913965","95.956223"
-"Mae Yao, Muang, Chiang Rai, Thailand","19.9748358","99.7644585"
+"Burmar",34.1586169,-118.4928609
+"Chiang Rai, Thailand",19.8737421,99.7232673
+"Myanmar",21.913965,95.956223
+"Mae Yao, Muang, Chiang Rai, Thailand",19.9748358,99.7644585
 "Ban Ayo, moo 10, T. Mae Yao, Muang, Chiang Rai, Thailand",NA,NA
-"Ban Doi Tung, Muang, Chiang Rai, Thailand","19.97853","99.7608641"
-"Huay Nam Rin Village, T. Mae Yao, Muang, Chiang Rai, Thailand","19.99032","99.562634"
+"Ban Doi Tung, Muang, Chiang Rai, Thailand",19.97853,99.7608641
+"Huay Nam Rin Village, T. Mae Yao, Muang, Chiang Rai, Thailand",19.99032,99.562634
 "Mae Suay District, Chiang Rai, Thailand",NA,NA
-"Muang, Chiang Rai, Thailand","19.9094444","99.8275"
+"Muang, Chiang Rai, Thailand",19.9094444,99.8275
 "Ban Huay Chom Pu, moo 10, T. Mae Yao, Muang, Chiang Rai, Thailand",NA,NA
 "Moo 3 T. Huay Chom Poo, Muang, Chiang Rai, Thailand",NA,NA
 "Mai Suay District, Chiang Rai, Thailand",NA,NA
 "Ban Huay Krai, Mae Saey District, Chiang Rai, Thailand",NA,NA
 "Chiang Rai Hospital, Muang, Chiang Rai, Thailand",NA,NA
-"Chiang Rai,Thailand","19.8737421","99.7232673"
+"Chiang Rai,Thailand",19.8737421,99.7232673
 "Pong Pam, moo 2, T. Mae Yao, Muang, Chiang Rai, Thailand",NA,NA
-"Mae Fah Luang District,Chiang Rai,Thailand","20.2672222","99.8013889"
-"Mae Saey District, Chiang Rai, Thailand","19.90632","99.82042"
+"Mae Fah Luang District,Chiang Rai,Thailand",20.2672222,99.8013889
+"Mae Saey District, Chiang Rai, Thailand",19.90632,99.82042
 "Ban Jadsan, T. Dong Mada, Mae Suay District, Chiang Rai, Thailand",NA,NA
 "Ban Pahi, Mae Fah Luang District, Chiang Rai, Thailand",NA,NA
 "24/พ, moo 11, T. Mae Yao, Muang, Chiang Rai, Thailand",NA,NA
 "Ban Adu, T. Mae Yao, Muang, Chiang Rai, Thailand",NA,NA
 "Pong Pa, Patana Village, Muang, Chiang Rai, Thailand",NA,NA
-"Muang district,Chiang Rai,Thailand","19.885679","99.826875"
-"Ban Chalaw, moo 7, T. Doiha, Mae Chan District, Chiang Rai, Thailand","20.1466667","99.8533333"
+"Muang district,Chiang Rai,Thailand",19.885679,99.826875
+"Ban Chalaw, moo 7, T. Doiha, Mae Chan District, Chiang Rai, Thailand",20.1466667,99.8533333
 "Huay Sang Kon village,T.Mae Yao,Muang,Chiang Rai,Thailand",NA,NA
-"Mae Fah Luang District, Chiang Rai, Thailand","20.2672222","99.8013889"
+"Mae Fah Luang District, Chiang Rai, Thailand",20.2672222,99.8013889
 "Ban Song Kao Pattana, moo 10, T. Mae Yao, Muang, Chiang Rai, Thailand",NA,NA
 "Ban Jalae, moo 11, T. Mae Yao, Muang, Chiang Rai, Thailand",NA,NA
-"Mae Chan Hospital, Mae Chan District, Chiang Rai, Thailand","20.1466667","99.8533333"
-"Paa Mee Village, Mae Fah Luang, Chiang Rai, Thailand","20.2671563","99.8014254"
+"Mae Chan Hospital, Mae Chan District, Chiang Rai, Thailand",20.1466667,99.8533333
+"Paa Mee Village, Mae Fah Luang, Chiang Rai, Thailand",20.2671563,99.8014254
 "Pong Pam Village, 44/พ moo 2, T. Mae Yao, Muang, Chiang Rai, Thailand",NA,NA
-"Mae Chan District, Chiang Rai, Thailand","20.1466667","99.8533333"
+"Mae Chan District, Chiang Rai, Thailand",20.1466667,99.8533333
 "Ban Adu, moo 11, T. Mae Yao, Muang, Chiang Rai, Thailand",NA,NA
 "T. Pasang, Maechan, Chiang Rai, Thailand",NA,NA
-"Mae Fah Luang ,Chiang Rai,Thailand","20.2672222","99.8013889"
+"Mae Fah Luang ,Chiang Rai,Thailand",20.2672222,99.8013889
 "Kuan Chang Village, T. Mae Yao, Muang, Chiang Rai, Thailand",NA,NA
-"Mae Yao,Muang,Chiang Rai,Thailand","19.9748358","99.7644585"
+"Mae Yao,Muang,Chiang Rai,Thailand",19.9748358,99.7644585
 "Jalae Village, moo 11, T. Mae Yao, Muang, Chiang Rai, Thailand",NA,NA
 "Huay Sangkon Village, Mae Yao, Muang, Chiang Rai, Thailand",NA,NA
 "Phamee village,Mae Fah Luang District,Chiang Rai,Thailand",NA,NA
 "Gegharkunik community",NA,NA
-"Gavar town","40.3588889","45.1266667"
-"bentley college","42.3860742","-71.2216062"
-"jakarta","-6.211544","106.845172"
-"Almaty","43.255058","76.912628"
+"Gavar town",40.3588889,45.1266667
+"bentley college",42.3860742,-71.2216062
+"jakarta",-6.211544,106.845172
+"Almaty",43.255058,76.912628
 "مدينة بلد - مستشفى بلد العام",NA,NA
-"chaingrai","19.89736","99.84533"
-"Chaingrai","19.89736","99.84533"
-"chaingmai","13.7347474","100.5068145"
-"Poland","51.919438","19.145136"
-"Привет","39.2644097","-75.5952584"
-"insein prison","16.8932203","96.0977112"
+"chaingrai",19.89736,99.84533
+"Chaingrai",19.89736,99.84533
+"chaingmai",13.7347474,100.5068145
+"Poland",51.919438,19.145136
+"Привет",39.2644097,-75.5952584
+"insein prison",16.8932203,96.0977112
 "West Papua, Indonesian occupied",NA,NA
 "West Papua (Indonesian Occupied)",NA,NA
 "West Papua: INdonesian Occupied",NA,NA
 "West Papua (indonesian Occupied) Rebellion",NA,NA
 "West Papua, (INdonesian occupied)",NA,NA
-"Jayapura, West Papua (Indonesian occupied)","-2.541279","140.71373"
+"Jayapura, West Papua (Indonesian occupied)",-2.541279,140.71373
 "West Papua (Indonesian occupied) Manokwari",NA,NA
 "West Papua, Indonesian Occupied",NA,NA
-"Mae Sot","16.7751826","98.704075"
-"Testland","58.595272","25.013607"
+"Mae Sot",16.7751826,98.704075
+"Testland",58.595272,25.013607
 "القصف الجوي والمدفعي والغزو على الحدود من قبل النظام التركي",NA,NA
-"Chiang Rai","19.8737421","99.7232673"
-"chiang mai","18.7964642","98.6600586"
-"Munag Chiang Rai","19.8887998","100.4398222"
-"Canarias","28.2915637","-16.6291304"
-"Kachin, Burma. ","25.850904","97.4381355"
+"Chiang Rai",19.8737421,99.7232673
+"chiang mai",18.7964642,98.6600586
+"Munag Chiang Rai",19.8887998,100.4398222
+"Canarias",28.2915637,-16.6291304
+"Kachin, Burma. ",25.850904,97.4381355
 "Mu Traw District, Karen state",NA,NA
-"Thailand and Burma","14.032532","99.5249026"
+"Thailand and Burma",14.032532,99.5249026
 "Internationally",NA,NA
-"Thai-Burma Border","9.9589213","98.6415572"
-"Kachin state and China border","25.850904","97.4381355"
-"Bangkok and Burma","5.431204","100.312194"
+"Thai-Burma Border",9.9589213,98.6415572
+"Kachin state and China border",25.850904,97.4381355
+"Bangkok and Burma",5.431204,100.312194
 "Karen state, Dooplaya District",NA,NA
-"ايران","32.427908","53.688046"
-"Porlamar, Estado Nueva Esparta, Venezuela.","10.960463","-63.85059"
-"Porlamar. Estado Nueva Esparta. Venezuela","10.960463","-63.85059"
-"Caracas","10.491016","-66.902061"
-" venezuela","6.42375","-66.58973"
-"venezuela","6.42375","-66.58973"
+"ايران",32.427908,53.688046
+"Porlamar, Estado Nueva Esparta, Venezuela.",10.960463,-63.85059
+"Porlamar. Estado Nueva Esparta. Venezuela",10.960463,-63.85059
+"Caracas",10.491016,-66.902061
+" venezuela",6.42375,-66.58973
+"venezuela",6.42375,-66.58973
 "Interrogation Center(MI-7, MI-26), Insein Annex Jail, Insein Prison,",NA,NA
 "Interrogation Center(MI-6), Insein Prison, Taungoo",NA,NA
 "Interrogation Centers,Insein Annex Jail, Insein Prison, Tharawaddy Prison",NA,NA
-"MI-6,Yei Kyi Ai Interrogation Centers, Insein Prison","44.3148443","-85.6023643"
+"MI-6,Yei Kyi Ai Interrogation Centers, Insein Prison",44.3148443,-85.6023643
 "Interrogation Centers, Insein Prison, Tharawaddy Prison, ",NA,NA
 "Interrogation Center, Insein Prison, Shwe Bo Prison",NA,NA
-"Htan Manaing Village","40.837165","-73.850896"
+"Htan Manaing Village",40.837165,-73.850896
 "Interrogation Center, Insein Prison, Tharawaddy Prison",NA,NA
-"Rangoon, Moulmein Prison","16.8","96.15"
-"MI Headquarters (Yei Kyi Ai), Insein Prison, Tharawaddy Prison, Taungoo Prison, Air Force Military Intelligence Center Number 1","44.3148443","-85.6023643"
+"Rangoon, Moulmein Prison",16.8,96.15
+"MI Headquarters (Yei Kyi Ai), Insein Prison, Tharawaddy Prison, Taungoo Prison, Air Force Military Intelligence Center Number 1",44.3148443,-85.6023643
 "Interrogation Centers, Insein Annex Jail, INsein Prison, Thayet Prison, Tharawaddy Prison",NA,NA
 "Interrogation Centers, Mandalay Prison,",NA,NA
 "Prome prison",NA,NA
@@ -652,67 +652,67 @@
 "Interrogation Center, Insein Prison, Thayet Prison",NA,NA
 "Mandalay and Tennasserim Division",NA,NA
 "Interrogation Center, Insein Prison",NA,NA
-"Mandalay Prison","51.455827","-0.141848"
-"Myitkyina, Mandalay","25.37915","97.388069"
-"MI-7, MI-6, Insein Annex Special Prison, Insein Prison, Tharawaddy Prison","44.3148443","-85.6023643"
+"Mandalay Prison",51.455827,-0.141848
+"Myitkyina, Mandalay",25.37915,97.388069
+"MI-7, MI-6, Insein Annex Special Prison, Insein Prison, Tharawaddy Prison",44.3148443,-85.6023643
 "Interrogation Centers, Insein Prison, Mandalay Prison and Tharawaddy Prison",NA,NA
-"Taunggyi","20.7836333","97.0353611"
+"Taunggyi",20.7836333,97.0353611
 "Interrogation Centers, Insein Annex Jail, Insein Prison, Thayet Prison",NA,NA
 "Interrogation Centers, Insein Prison, Myingyan Prison",NA,NA
-"MI-14 Interrogation Center, Insein Prison, Tharawaddy Prison,","44.3148443","-85.6023643"
-"MI-1(Mandalay), Mandalay Prison, Insein Annex Jail, Insein Prison, Tharawaddy Prison","44.3148443","-85.6023643"
+"MI-14 Interrogation Center, Insein Prison, Tharawaddy Prison,",44.3148443,-85.6023643
+"MI-1(Mandalay), Mandalay Prison, Insein Annex Jail, Insein Prison, Tharawaddy Prison",44.3148443,-85.6023643
 "Interrogation Center, Insein Annex Jail, Tharawaddy Prison",NA,NA
 "Interrogation Center, Insein Annex Jail, Insein Prison, Thayet Prison",NA,NA
-"Mandalay Prison ","51.455827","-0.141848"
+"Mandalay Prison ",51.455827,-0.141848
 "Inteterrogation Center (MI-6), Insein Prison,",NA,NA
-"MI-14, Insein Prison, Tharawaddy Prison,","44.3148443","-85.6023643"
-"Rwanda","-1.940278","29.873888"
-"Caracas. Venezuela","10.491016","-66.902061"
-"Estado Zulia, Venezuela","9.967492","-72.5204827"
-"Caracas-Venezuela","10.491016","-66.902061"
-"Venezuela","6.42375","-66.58973"
-"Estado Zulia. Venezuela","9.967492","-72.5204827"
-"Oshogbo, Osun state","7.765814","4.56122"
+"MI-14, Insein Prison, Tharawaddy Prison,",44.3148443,-85.6023643
+"Rwanda",-1.940278,29.873888
+"Caracas. Venezuela",10.491016,-66.902061
+"Estado Zulia, Venezuela",9.967492,-72.5204827
+"Caracas-Venezuela",10.491016,-66.902061
+"Venezuela",6.42375,-66.58973
+"Estado Zulia. Venezuela",9.967492,-72.5204827
+"Oshogbo, Osun state",7.765814,4.56122
 "northern maesot",NA,NA
-" Ciudad Bolivar - Estado Bolivar. Venezuela","8.122","-63.55"
-" Ciudad Bolivar. Estado Bolivar. Venezuela","8.122","-63.55"
-" La Paragua. Municipio Raul Leoni del Estado Bolivar. Venezuela ","6.8352019","-63.3505606"
-" Maripa. Municipio Sucre. Estado Bolivar. Venezuela","7.4154444","-65.1892471"
-"Ariana","36.8625","10.1955556"
-"NAIROBI KENYA ","-1.2833333","36.8166667"
-"KINGMI, Wamena, west papua, Indonesia","-4.3545042","139.3653149"
-"la grande tunis ","35.2940447","10.7064073"
-"tunis","33.886917","9.537499"
-"mea sot","16.7751826","98.704075"
-"Chin state, matupi","21.4405225","93.4195527"
-"Chin state, matupi Township","21.4405225","93.4195527"
-"Maracaibo, Venezuela","10.64504","-71.637154"
-"Estado Zulia Venezuela","9.967492","-72.5204827"
-"Zulia, Venezuela","9.967492","-72.5204827"
-"Southern Ye","14.536683","44.40727"
-"Wang Pan","19.447974","99.6359738"
+" Ciudad Bolivar - Estado Bolivar. Venezuela",8.122,-63.55
+" Ciudad Bolivar. Estado Bolivar. Venezuela",8.122,-63.55
+" La Paragua. Municipio Raul Leoni del Estado Bolivar. Venezuela ",6.8352019,-63.3505606
+" Maripa. Municipio Sucre. Estado Bolivar. Venezuela",7.4154444,-65.1892471
+"Ariana",36.8625,10.1955556
+"NAIROBI KENYA ",-1.2833333,36.8166667
+"KINGMI, Wamena, west papua, Indonesia",-4.3545042,139.3653149
+"la grande tunis ",35.2940447,10.7064073
+"tunis",33.886917,9.537499
+"mea sot",16.7751826,98.704075
+"Chin state, matupi",21.4405225,93.4195527
+"Chin state, matupi Township",21.4405225,93.4195527
+"Maracaibo, Venezuela",10.64504,-71.637154
+"Estado Zulia Venezuela",9.967492,-72.5204827
+"Zulia, Venezuela",9.967492,-72.5204827
+"Southern Ye",14.536683,44.40727
+"Wang Pan",19.447974,99.6359738
 "Kyaut Kyi area",NA,NA
-"district 1 ","20.9518728","95.9453469"
-"Chhveang sub-district ponhea Lueu district Kandal province | ","11.4001049","105.1258955"
-"Kein Khleang village Chrouy Changva sub-district Ruessei Kaev district Phnom Penh","11.558831","104.917445"
-"Kaoh Soutin sub-district Kaoh Soutin district Kampong Cham province","12.0769925","105.6881788"
+"district 1 ",20.9518728,95.9453469
+"Chhveang sub-district ponhea Lueu district Kandal province | ",11.4001049,105.1258955
+"Kein Khleang village Chrouy Changva sub-district Ruessei Kaev district Phnom Penh",11.558831,104.917445
+"Kaoh Soutin sub-district Kaoh Soutin district Kampong Cham province",12.0769925,105.6881788
 "Ouchrey village Kamrieng sub-district Kamrieng district Battambang province",NA,NA
 "in Vea Tom village Thean Thyeg sub-district | Phnom Shouich district Kom PongSear province. | ",NA,NA
 "Cham Ka Chach village Cham Ka Chach district Prey Veng proveince",NA,NA
-"Svay Chrum village Boeng Bat sub-district Bakan district Pursat province","12.3663211","103.6362715"
-"Phnom Meas sub-district Kiri Sakor district Koh Kong province","11.1174451","103.1971067"
-"Tucson, AZ; Fresno, CA; Oakhurst, CA; Akron, OH","41.0814447","-81.5190053"
-"Korogocho","-1.2503642","36.8909401"
+"Svay Chrum village Boeng Bat sub-district Bakan district Pursat province",12.3663211,103.6362715
+"Phnom Meas sub-district Kiri Sakor district Koh Kong province",11.1174451,103.1971067
+"Tucson, AZ; Fresno, CA; Oakhurst, CA; Akron, OH",41.0814447,-81.5190053
+"Korogocho",-1.2503642,36.8909401
 "BAMA ROAD OPPOSITE UMTH",NA,NA
-"الشرق الاوسط","33.8746879","35.5671971"
-"Boulaq El Dakror","30.0372549","31.1910819"
-"Mombasa","-4.05","39.6666667"
-"NAIROBI","-1.2833333","36.8166667"
+"الشرق الاوسط",33.8746879,35.5671971
+"Boulaq El Dakror",30.0372549,31.1910819
+"Mombasa",-4.05,39.6666667
+"NAIROBI",-1.2833333,36.8166667
 "4Cs Trust networks",NA,NA
-"MALINDI","-3.216434","40.109249"
-"Maua","-23.6687442","-46.4613973"
-"Safari Park","-1.2833333","36.8166667"
-"kENYA -NAIROBI","-0.023559","37.906193"
-"Mandera","3.9361111","41.8541667"
-"Kibwezi","-2.4166667","37.9666667"
-"Jakarta","-6.211544","106.845172"
+"MALINDI",-3.216434,40.109249
+"Maua",-23.6687442,-46.4613973
+"Safari Park",-1.2833333,36.8166667
+"kENYA -NAIROBI",-0.023559,37.906193
+"Mandera",3.9361111,41.8541667
+"Kibwezi",-2.4166667,37.9666667
+"Jakarta",-6.211544,106.845172
