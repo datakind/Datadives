@@ -54,29 +54,18 @@
 
 \title{Martus Usage Report}
 \date{\today}
-\institution{\includegraphics[width = 3cm]{Benetech-Logo-tag.jpg}}
+\institute{\includegraphics[width = 3cm]{Benetech-Logo-tag.jpg}}
 
 \begin{document}
   
 % The data frame is called 'benetech'
 <<echo=false>>=
-#source('load_data.R')
+source('load_data.R')
 @
 
 \begin{frame}[plain]
   \titlepage  
 \end{frame}
-
-\begin{frame}
-  \frametitle{Global Martus Use}
-<<echo=false, include=false>>=
-source('11_map_report.R')
-@
-\includegraphics[width=11cm]{benetech_report-map_plot.pdf} \\ 
-As of \today
-\end{frame}
-
-
 
 \begin{frame}{Database Usage Statistics}
 
@@ -101,14 +90,12 @@ source( "Q1_server_usage.R" )
 \end{frame}
 
 
-
-
 \begin{frame}{Cumulative Usage Plots}
 
 \begin{figure}
 \begin{center}
 
-<<TotalUsagePlot, fig=TRUE, echo=FALSE>>=
+<<TotalUsagePlot, fig=TRUE, echo=FALSE, width=2.5, height=2.5>>=
 source( "Q1b_server_growth.R" )
 plot.tot(bfs.big)
 @ 
@@ -124,7 +111,7 @@ plot.tot(bfs.big)
 \begin{figure}
 \begin{center}
 
-<<AverageDailyUsagePlot, fig=TRUE, echo=FALSE>>=
+<<AverageDailyUsagePlot, fig=TRUE, echo=FALSE, width=4, height=2.5>>=
 plot.deriv(bfs.little)
 @ 
 \caption{Daily usage over time}
@@ -139,7 +126,7 @@ plot.deriv(bfs.little)
 \begin{figure}
 \begin{center}
 
-<<AverageDailyUsagePlotTruncated, fig=TRUE, echo=FALSE>>=
+<<AverageDailyUsagePlotTruncated, fig=TRUE, echo=FALSE, width=2.5, height=2.5>>=
 plot.deriv.trunc(bfs.little)
 @ 
 \caption{Average Daily Usage (Truncated)}
@@ -150,10 +137,6 @@ Note: as previous slide, but truncated to 95\% of values to see typical behavior
 \end{frame}
 
 
-
-
-
-
 \begin{frame}{Custom Field Statistics}
 
 <<CustomFieldStats, results=tex, echo=FALSE>>=
@@ -162,7 +145,14 @@ source( "Q4_custom_field_code.R" )
 
 \end{frame}
 
-
+\begin{frame}
+  \frametitle{Global Martus Use}
+<<echo=false, include=false>>=
+source('11_map_report.R')
+@
+\includegraphics[width=11cm]{benetech_report-map_plot.pdf} \\ 
+As of \today
+\end{frame}
 
 
 \end{document}
