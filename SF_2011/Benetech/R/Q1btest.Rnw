@@ -1,0 +1,154 @@
+%
+%  benetech_report.rnw
+%
+%  Created on 2011-11-05
+% 
+%
+\documentclass[xcolor=dvipsnames, 9pt,handout]{beamer}
+
+\newenvironment{code}{\begin{semiverbatim} \begin{footnotesize}}
+{\end{footnotesize}\end{semiverbatim}}
+
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{natbib}
+\usepackage{color}
+\usepackage{pdfsync}
+\usepackage{chancery}
+% \usepackage{movie15}
+\usepackage{pgfpages}
+\usepackage{fancyvrb}
+\usepackage{colortbl}
+% Multipart figures
+% \usepackage{subfigure}
+
+% \definecolor{white}{rgb}{255,255,255}
+% \definecolor{darkred}{rgb}{0.5,0,0}
+% \definecolor{darkgreen}{rgb}{0,0.5,0}
+% \definecolor{lightblue}{rgb}{0,0,0.7}
+
+% \hypersetup{colorlinks,
+%   linkcolor=white,
+%   filecolor=darkred,
+%   urlcolor=lightblue,
+%   citecolor=darkblue}
+
+\usepackage{beamerthemesplit}
+\usetheme{Hannover}
+\usecolortheme{dove}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{itemize items}[triangle]
+\setbeamertemplate{enumerate items}[default]
+%\setbeameroption{show notes on second screen}
+
+\newcommand{\R}{\mathbb{R}}
+\renewcommand{\d}{\mathsf{d}}
+\newcommand{\dd}{\partial}
+\newcommand{\E}{\mathsf{E}}
+\newcommand{\bb}{\mathbf}
+
+\graphicspath{{../images/}}
+
+\title{Martus Usage Report}
+\date{\today}
+
+\institute{\includegraphics[width = 5cm]{Benetech-Logo-tag.jpg}}
+
+\begin{document}
+  
+% The data frame is called 'benetech'
+<<echo=false>>=
+#source('load_data.R')
+@
+
+\begin{frame}{Cumulative Usage Plots}
+
+\begin{figure}
+\begin{center}
+
+<<TotalUsagePlot, fig=TRUE, height=4.2, width=6.5, echo=FALSE>>=
+source( "Q1b_server_growth.R" )
+plot.tot(bfs.big)
+@ 
+\caption{Total usage over time}
+\end{center}
+\end{figure}
+
+\end{frame}
+
+
+\begin{frame}{Average Daily Usage Plots}
+
+\begin{figure}
+\begin{center}
+
+<<AverageDailyUsagePlot, height=4.2, width=6.5, fig=TRUE, echo=FALSE>>=
+plot.deriv(bfs.little)
+@ 
+\caption{Daily usage over time}
+\end{center}
+\end{figure}
+
+\end{frame}
+
+
+
+
+\begin{frame}{Total Usage Plots (Last 3 Years) }
+
+\begin{figure}
+\begin{center}
+
+<<TotalUsageThreeYears, fig=TRUE, height=4.2, width=6.5, echo=FALSE>>=
+plot.tot.from(bfs.big, 3 )
+@ 
+\caption{Total Usage Over Last Three Years}
+\end{center}
+\end{figure}
+
+Note: as previous slide, but truncated to last three years.
+\end{frame}
+
+
+
+
+\begin{frame}{Average Daily Usage Plots (Last 3 Years) }
+
+\begin{figure}
+\begin{center}
+
+<<AverageDailyUsagePlotThreeYears, fig=TRUE, height=4.2, width=6.5, echo=FALSE>>=
+plot.deriv.from(3)
+@ 
+\caption{Average Daily Usage Over Last Three Years}
+\end{center}
+\end{figure}
+
+Note: as previous slide, but truncated to last three years.
+\end{frame}
+
+
+
+\begin{frame}{Average Daily Usage Plots (Last 3 Years) }
+
+\begin{figure}
+\begin{center}
+
+<<AverageDailyUsagePlotTruncated, fig=TRUE, height=4.2, width=6.5, echo=FALSE>>=
+plot.deriv.trunc(bfs.little)
+@ 
+\caption{Average Daily Usage Over Last Three Years}
+\end{center}
+\end{figure}
+
+Note: as previous slide, but truncated to 95\% of values to see typical behavior without extreme outliers.
+\end{frame}
+
+
+
+
+
+\end{document}

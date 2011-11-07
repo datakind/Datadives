@@ -1,0 +1,102 @@
+% %
+% %  benetech_report.rnw
+% %
+% %  Created on 2011-11-05
+% % 
+% %
+% \documentclass[xcolor=dvipsnames, 9pt,handout]{beamer}
+% 
+% \newenvironment{code}{\begin{semiverbatim} \begin{footnotesize}}
+% {\end{footnotesize}\end{semiverbatim}}
+% 
+% \usepackage{graphicx}
+% \usepackage{amssymb}
+% \usepackage{amsfonts}
+% \usepackage{amsmath}
+% \usepackage{hyperref}
+% \usepackage{natbib}
+% \usepackage{color}
+% \usepackage{pdfsync}
+% \usepackage{chancery}
+% % \usepackage{movie15}
+% \usepackage{pgfpages}
+% \usepackage{fancyvrb}
+% \usepackage{colortbl}
+% % Multipart figures
+% % \usepackage{subfigure}
+% 
+% % \definecolor{white}{rgb}{255,255,255}
+% % \definecolor{darkred}{rgb}{0.5,0,0}
+% % \definecolor{darkgreen}{rgb}{0,0.5,0}
+% % \definecolor{lightblue}{rgb}{0,0,0.7}
+% 
+% % \hypersetup{colorlinks,
+% %   linkcolor=white,
+% %   filecolor=darkred,
+% %   urlcolor=lightblue,
+% %   citecolor=darkblue}
+% 
+% \usepackage{beamerthemesplit}
+% \usetheme{Hannover}
+% \usecolortheme{dove}
+% \setbeamertemplate{navigation symbols}{}
+% \setbeamertemplate{itemize items}[triangle]
+% \setbeamertemplate{enumerate items}[default]
+% %\setbeameroption{show notes on second screen}
+% 
+% \newcommand{\R}{\mathbb{R}}
+% \renewcommand{\d}{\mathsf{d}}
+% \newcommand{\dd}{\partial}
+% \newcommand{\E}{\mathsf{E}}
+% \newcommand{\bb}{\mathbf}
+% 
+% \graphicspath{{../images/}}
+% 
+% \title{Martus Usage Report}
+% \date{\today}
+% 
+% \institute{\includegraphics[width = 5cm]{Benetech-Logo-tag.jpg}}
+% 
+% \begin{document}
+%   
+% % The data frame is called 'benetech'
+% <<echo=false>>=
+% #source('load_data.R')
+% @
+% 
+% \begin{frame}[plain]
+%   \titlepage  
+% \end{frame}
+% 
+
+
+\begin{frame}{Database Usage Statistics}
+
+\begin{table}[ht]
+\small  % so sorry!!
+\begin{center}
+\begin{tabular}{rr|r|rr|r|rr}
+ 	 	& 	 	& Bulletins&	\multicolumn{2}{c|}{Memory}	 &	Acc  	 &				  \multicolumn{2}{c}{Attachments}  \\ 
+ Server & Type & & Mb & K$/$B &   & Total & \% Pub \\ 
+  \hline
+
+
+<<UsageTable, results=tex, echo=FALSE>>=
+source( "Q1_server_usage.R" )
+@ 
+
+\end{tabular}
+
+\caption{Database Usage Statistics. }
+\end{center}
+\end{table}
+{\small The above table show total load on the various servers.  For a given server, the table shows total load for different types of bulletins.  Type is Orig=bulletins on original server, Mirr=mirrored bulletins, T=all bulletins.   K$/$B is kilobytes per bulletin, on average.  Acc is number of distinct accounts (as measured by public.code).   
+}
+
+\end{frame}
+% 
+% 
+% 
+% 
+% 
+% \end{document}

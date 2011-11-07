@@ -1,0 +1,242 @@
+%
+%  benetech_report.rnw
+%
+%  Created on 2011-11-05
+%
+%
+\documentclass[xcolor=dvipsnames, 9pt,handout]{beamer}
+
+\newenvironment{code}{\begin{semiverbatim} \begin{footnotesize}}
+{\end{footnotesize}\end{semiverbatim}}
+
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{natbib}
+\usepackage{color}
+\usepackage{pdfsync}
+\usepackage{chancery}
+% \usepackage{movie15}
+\usepackage{pgfpages}
+\usepackage{fancyvrb}
+\usepackage{colortbl}
+% Multipart figures
+% \usepackage{subfigure}
+
+% \definecolor{white}{rgb}{255,255,255}
+% \definecolor{darkred}{rgb}{0.5,0,0}
+% \definecolor{darkgreen}{rgb}{0,0.5,0}
+% \definecolor{lightblue}{rgb}{0,0,0.7}
+
+% \hypersetup{colorlinks,
+%   linkcolor=white,
+%   filecolor=darkred,
+%   urlcolor=lightblue,
+%   citecolor=darkblue}
+
+\usepackage{beamerthemesplit}
+\usetheme{Hannover}
+\usecolortheme{dove}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{itemize items}[triangle]
+\setbeamertemplate{enumerate items}[default]
+%\setbeameroption{show notes on second screen}
+
+\newcommand{\R}{\mathbb{R}}
+\renewcommand{\d}{\mathsf{d}}
+\newcommand{\dd}{\partial}
+\newcommand{\E}{\mathsf{E}}
+\newcommand{\bb}{\mathbf}
+
+\graphicspath{{../images/}}
+
+\title{Martus Usage Report}
+\date{\today}
+\institute{\includegraphics[width = 3cm]{Benetech-Logo-tag.jpg}}
+
+\begin{document}
+
+% The data frame is called 'benetech'
+<<echo=false>>=
+source('load_data.R')
+@
+
+\begin{frame}[plain]
+  \titlepage
+\end{frame}
+
+\begin{frame}{Database Usage Statistics}
+
+\begin{table}[ht]
+\small  % so sorry!!
+\begin{center}
+\begin{tabular}{rr|r|rr|r|rr}
+ 	 	& 	 	& Bulletins&	\multicolumn{2}{c|}{Memory}	 &	Acc  	 &				  \multicolumn{2}{c}{Attachments}  \\ 
+ Server & Type & & Mb & K$/$B &   & Total & \% Pub \\ 
+  \hline
+
+
+<<UsageTable, results=tex, echo=FALSE>>=
+source( "Q1_server_usage.R" )
+@ 
+
+\end{tabular}
+
+\caption{Database Usage Statistics. }
+\end{center}
+\end{table}
+{\small The above table show total load on the various servers.  For a given server, the table shows total load for different types of bulletins.  Type is Orig=bulletins on original server, Mirr=mirrored bulletins, T=all bulletins.   K$/$B is kilobytes per bulletin, on average.  Acc is number of distinct accounts (as measured by public.code).   
+}
+
+\end{frame}
+
+
+\begin{frame}{Cumulative Usage Plots}
+
+\begin{figure}
+\begin{center}
+
+<<TotalUsagePlot, fig=TRUE, echo=FALSE, width=4, height=3>>=
+source( "Q1b_server_growth.R" )
+plot.tot(bfs.big)
+@ 
+\caption{Total usage over time}
+\end{center}
+\end{figure}
+
+\end{frame}
+
+
+\begin{frame}{Average Daily Usage Plots}
+
+\begin{figure}
+\begin{center}
+
+<<AverageDailyUsagePlot, fig=TRUE, echo=FALSE, width=4, height=3>>=
+plot.deriv(bfs.little)
+@ 
+\caption{Daily usage over time}
+\end{center}
+\end{figure}
+
+\end{frame}
+
+
+\begin{frame}{Average Daily Usage Plots (Truncated) }
+
+\begin{figure}
+\begin{center}
+
+<<AverageDailyUsagePlotTruncated, fig=TRUE, echo=FALSE, width=4, height=3>>=
+plot.deriv.trunc(bfs.little)
+@ 
+\caption{Average Daily Usage (Truncated)}
+\end{center}
+\end{figure}
+
+Note: as previous slide, but truncated to 95\% of values to see typical behavior without extreme outliers.
+\end{frame}
+
+
+\begin{frame}{Custom Field Statistics}
+
+<<CustomFieldStats, results=tex, echo=FALSE>>=
+source( "Q4_custom_field_code.R" )
+@ 
+\end{frame}
+
+<<echo=false>>=
+source('q5.R')
+@
+
+\begin{frame}[plain]
+  \frametitle{Average account longevity}
+  \begin{block}{Question}
+    How does (date.last.saved - date.authorized) vary as a function of date.authorized?
+  \end{block}
+  Some notes about the dataset:
+  \begin{itemize}
+    \item Many authorized dates are NA. The total number of samples is
+    $\Sexpr{sum(table_neg_time_diff)}$, and $\Sexpr{table_neg_time_diff['TRUE']}$
+    are NAs.
+    \item Some last saved at dates ($\Sexpr{table_na['TRUE']}$ of them) are
+    before the authorized dates.
+    \item We filtered these out in our analysis.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}[plain]
+  \frametitle{Bulletin longevity}
+Large variability over the years.
+<<TimeBoxPlots, fig=TRUE, echo=FALSE, width=4, height=3>>=
+print(ggplot(data=working_set, aes(x=time_group_halves, y=time_diff_int/60/60/24)) +
+  geom_point() + geom_boxplot() + opts(axis.text.x=theme_text(angle=-90))) +
+  scale_x_continuous('Bulletins') +
+  scale_y_continuous('Days since authorized', formatter='comma')
+@
+\end{frame}
+
+\begin{frame}
+  \frametitle{Median account longevity, Scatter}
+Each point is an account (characterized by the number of bulletins created.)
+<<ActivityByAccountScatter, fig=TRUE, echo=FALSE, width=4, height=3>>=
+print(ggplot(data=by_account_quarter, aes(x=count, y=time_diff_median_seconds/60/60/24)) +
+  geom_point() + coord_trans(x="log10") + opts(axis.text.x=theme_text(angle=-90)) +
+  scale_x_continuous('Account by bulletin count') +
+  scale_y_continuous('Days since authorized', formatter='comma'))
+@
+\end{frame}
+
+\begin{frame}
+  \frametitle{By Account Quarter, Box}
+  Another perspective.
+<<ActivityByAccountBox, fig=TRUE, echo=FALSE, width=4, height=3>>=
+print(ggplot(data=by_account_quarter, aes(x=count, y=time_diff_mean_seconds/60/60/24)) +
+  geom_point() + geom_boxplot(aes(group=round_any(log10(count), 1))) +
+  opts(axis.text.x=theme_text(angle=-90)) +
+  scale_x_continuous('Account by bulletin count') +
+  scale_y_continuous('Days since authorized', formatter='comma'))
+@
+\end{frame}
+
+\begin{frame}
+  \frametitle{Bulletins by group}
+  \includegraphics[width=\textwidth]{bulletins_by_group.png}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Bulletins by public code}
+  \includegraphics[width=\textwidth]{bulletins_by_public_code.png}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Public code distribution}
+  \includegraphics[width=\textwidth]{public_code_distribution.png}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Group usage}
+<<echo=false>>=
+group.usage <- read.csv('../data/group_usage.csv', stringsAsFactors=FALSE)
+group.usage[with(group.usage, order(-n_bulletins)),]
+@
+\tiny
+<<UsageTable, echo=false, fig=true, width=4, height=3>>=
+plot(ggplot(group.usage, aes(xmin=1:nrow(group.usage)-0.5, xmax=1:nrow(group.usage)+0.5, ymin=0, ymax= n_bulletins))+
+  geom_rect()+scale_y_log10()+scale_x_continuous(breaks=1:nrow(group.usage), labels=group.usage$Group)+coord_flip())
+@
+\end{frame}
+
+\begin{frame}
+  \frametitle{Global Martus Use}
+<<echo=false, include=false>>=
+source('11_map_report.R')
+@
+\includegraphics[width=11cm]{benetech_report-map_plot.pdf} \\
+As of \today
+\end{frame}
+
+
+\end{document}
