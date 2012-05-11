@@ -4,4 +4,4 @@
 
 [submodule "Chicago_2012"]
 	path = Chicago_2012
-	url = git://github.com/tlevine/Chicago_2012.git
+	url = git://github.com/tlevine/DataKind-Chicago-2012.git
