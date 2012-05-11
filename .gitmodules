@@ -1,3 +1,7 @@
-[submodule "DC_2011"]
-	path = DC_2011
+[submodule "DC_2012"]
+	path = DC_2012
 	url = git://github.com/datanoborders/DC_Datadive.git
+
+[submodule "Chicago_2012"]
+	path = Chicago_2012
+	url = git://github.com/tlevine/Chicago_2012.git
