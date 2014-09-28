@@ -1,0 +1,85 @@
+%
+%  benetech_report.rnw
+%
+%  Created on 2011-11-05
+% 
+%
+\documentclass[xcolor=dvipsnames, 9pt,handout]{beamer}
+
+\newenvironment{code}{\begin{semiverbatim} \begin{footnotesize}}
+{\end{footnotesize}\end{semiverbatim}}
+
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{natbib}
+\usepackage{color}
+\usepackage{pdfsync}
+\usepackage{chancery}
+% \usepackage{movie15}
+\usepackage{pgfpages}
+\usepackage{fancyvrb}
+\usepackage{colortbl}
+% Multipart figures
+% \usepackage{subfigure}
+
+% \definecolor{white}{rgb}{255,255,255}
+% \definecolor{darkred}{rgb}{0.5,0,0}
+% \definecolor{darkgreen}{rgb}{0,0.5,0}
+% \definecolor{lightblue}{rgb}{0,0,0.7}
+
+% \hypersetup{colorlinks,
+%   linkcolor=white,
+%   filecolor=darkred,
+%   urlcolor=lightblue,
+%   citecolor=darkblue}
+
+\usepackage{beamerthemesplit}
+\usetheme{Hannover}
+\usecolortheme{dove}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{itemize items}[triangle]
+\setbeamertemplate{enumerate items}[default]
+%\setbeameroption{show notes on second screen}
+
+\newcommand{\R}{\mathbb{R}}
+\renewcommand{\d}{\mathsf{d}}
+\newcommand{\dd}{\partial}
+\newcommand{\E}{\mathsf{E}}
+\newcommand{\bb}{\mathbf}
+
+\graphicspath{{../images/}}
+
+\title{Martus Usage Report}
+\date{\today}
+
+\institute{\includegraphics[width = 5cm]{Benetech-Logo-tag.jpg}}
+
+\begin{document}
+  
+% The data frame is called 'benetech'
+<<echo=false>>=
+#source('load_data.R')
+@
+
+\begin{frame}[plain]
+  \titlepage  
+\end{frame}
+
+
+\begin{frame}{Custom Field Statistics}
+
+<<CustomFieldStats, results=tex, echo=FALSE>>=
+source( "Q4_custom_field_code.R" )
+@ 
+
+\end{frame}
+
+
+
+
+
+
+\end{document}
